@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.service-itemselection {
+  background: url("../img/team_bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 90px 90px;
+  border-radius: 30px;
+}
+.main-service {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+
+.service-box {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.service-item {
+  background: white;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 30px 30px 30px;
+  border-radius: 20px;
+}
+
+.service-item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background: #253a4e;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.service-item:hover::before {
+  width: 100%;
+}
+
+.service-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 23px;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  line-height: 46px;
+  top: 30px;
+  transition: 0.5s;
+  font-size: 17px;
+}
+.service-icon img {
+  transition: 0.5s;
+  vertical-align: middle;
+}
+.service-item:hover .service-icon {
+  background-color: #0495ff;
+}
+
+.service-item:hover .service-icon img {
+  filter: brightness(0) invert(1);
+}
+
+.single-serviceinner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.service-img img {
+  width: auto;
+  vertical-align: middle;
+}
+.service-text h3 {
+  font-size: 24px;
+  font-weight: 500;
+  transition: 0.5s;
+  font-family: "Unbounded";
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+
+.service-item:hover .service-text h3 {
+  color: white;
+}
+
+.service-text p{
+    font-size: 15px;
+  line-height: 24px;
+  margin: 13px 0 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+.service-item:hover .service-text p{
+    color: white;
+  }
+
+  /* For small devices (phones) */
+@media (max-width: 767px) {
+    .service-itemselection {
+      padding: 60px 30px 60px;
+    }
+  
+    .service-box {
+      width: 100%;
+      padding: 0 15px;
+    }
+  
+    .service-item {
+      padding: 20px 15px;
+    }
+  
+    .service-icon {
+      right: 15px;
+      top: 15px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+  
+    .service-text h3 {
+      font-size: 18px;
+    }
+  
+    .service-text p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .single-serviceinner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .service-img img {
+      width: 100%;
+    }
+  }
+  
+  /* For medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .service-itemselection {
+      padding: 80px 50px 80px;
+    }
+  
+    .service-box {
+      width: 50%;
+      padding: 0 15px;
+    }
+  
+    .service-icon {
+      right: 20px;
+      top: 20px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+    }
+  
+    .service-text h3 {
+      font-size: 20px;
+      margin: 0 -33px;
+    }
+  
+    .service-text p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    .service-img img {
+        width: 126px;
+        vertical-align: middle;
+      }
+      .service-img {
+        margin: 0 -17px;
+      }
+  }
+  
+  /* For large devices (desktops and above) */
+  @media (min-width: 1025px) {
+    .service-itemselection {
+      padding: 110px 90px 90px;
+    }
+  
+    .service-box {
+      width: 50%;
+      padding: 0 15px;
+    }
+  
+    .service-icon {
+      right: 30px;
+      top: 30px;
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+    }
+  
+    .service-text h3 {
+      font-size: 24px;
+    }
+  
+    .service-text p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+  
+ /* For devices with screen width between 1200px and 1400px */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .service-itemselection {
+      padding: 100px 70px 100px;
+    }
+  
+    .service-box {
+      width: 50%;
+      padding: 0 20px;
+    }
+  
+    .service-item {
+      padding: 25px 25px 25px;
+    }
+  
+    .service-icon {
+      right: 25px;
+      top: 25px;
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
+    }
+  
+    .service-text h3 {
+      font-size: 22px;
+    }
+  
+    .service-text p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  
+    .single-serviceinner {
+      gap: 25px;
+    }
+  
+    .service-img img {
+      width: 100%;
+    }
+  }
+  

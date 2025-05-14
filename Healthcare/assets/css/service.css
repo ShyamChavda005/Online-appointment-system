@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+/* start Service We Provide */
+.case_study_sextion {
+    background: #041c33;
+    padding: 171px 0 120px 40px;
+  }
+  .case_study_sextion .container .main-service {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+  }
+  .case_study_sextion .container .main-service .leftservice-provide {
+    flex: 0 0 auto;
+    width: 50%;
+    flex-shrink: 0;
+  }
+  .case_study_sextion
+    .container
+    .main-service
+    .leftservice-provide
+    .slider-services {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 15px 15px; */
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: -118px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .case_study_sextion
+    .container
+    .main-service
+    .leftservice-provide
+    .slider-services
+    .owl-carousel {
+    display: block;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  /* .case_study_sextion .container .main-service .leftservice-provide .slider-services .owl-stage-outer{
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+  } */
+  .case_thumb {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .case_thumb::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+      180deg,
+      rgba(3, 27, 51, 0) 0%,
+      rgba(3, 27, 51, 0) 50%,
+      rgba(3, 27, 51, 0.9999999999999999) 88%,
+      rgba(3, 27, 51, 0.9999999999999999) 100%
+    );
+    border-radius: 15px;
+    opacity: 0.6;
+  }
+  .case_thumb a {
+    font-style: normal;
+    font-weight: 400;
+    color: #002570;
+    text-decoration: none;
+    transition: all 0.3s ease-out 0s;
+  }
+  .case_thumb a img {
+    display: block;
+    width: 100%;
+  }
+  .case_study_content {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .case_study_content span {
+    font-size: 14px;
+    color: #041c33;
+    font-weight: 400;
+    font-family: "Unbounded";
+    background: #ddeaa2;
+    padding: 9px 30px;
+    border-radius: 18px;
+    /* text-align: center; */
+    line-height: 26px;
+  }
+  
+  .case_study_content h3 {
+    color: #041c33;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  .case_study_content h3 a {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Unbounded";
+    margin: 15px 0 0;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .case_study_content span:hover {
+    background: #0495ff;
+    color: white;
+  }
+  
+  .case_study_content h3 a:hover {
+    color: #0495ff;
+  }
+  .owl-nav {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+  }
+  .owl-nav .owl-prev {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+  
+  .owl-nav .owl-prev i {
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .rightservice-provide {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .rightservice-provide .chooseright-slide {
+    /* position: relative; */
+    z-index: 1;
+    margin: 0 104px;
+  }
+  
+  .rightservice-provide .chooseright-slide .Providetitle h4 {
+    color: #0391f8;
+    padding: 0 0 23px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .rightservice-provide .chooseright-slide .Providetitle h4::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 1px;
+    background: url("../img/shape5.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: wooo 3.5s infinite;
+  }
+  .rightservice-provide .chooseright-slide .Providetitle h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+    line-height: 46px;
+    font-weight: 600;
+    font-family: "Unbounded";
+    font-style: normal;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item {
+    padding-top: 19px;
+    margin-top: 29px;
+    position: relative;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item::before {
+    background: rgba(255, 255, 255, 0.10196078431372549);
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 68%;
+    height: 1px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item ul {
+    font-style: normal;
+    font-weight: 400;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    display: block;
+    padding: 0 0 3px;
+    font-size: 16px;
+    line-height: 39px;
+    color: #ffffffb8;
+    font-weight: 400;
+    font-family: "Open Sans";
+    list-style: none;
+    font-style: normal;
+  }
+  
+  .rightservice-provide .chooseright-slide .case_list_item li i {
+    font-size: 18px;
+    color: #0495ff;
+    display: inline-block;
+    padding-right: 9px;
+    top: 1px;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .rightservice-provide .chooseright-slide .counter-single-box {
+    background: #dbe9a1;
+    display: inline-block;
+    padding: 33px 40px 38px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    right: 22%;
+    top: 73%;
+  }
+  .rightservice-provide .chooseright-slide .counter-single-box .counter_icon {
+    text-align: center;
+  }
+  .rightservice-provide .chooseright-slide .counter-single-box .counter_icon img {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .rightservice-provide
+    .chooseright-slide
+    .counter-single-box
+    .counter-box-title {
+    display: flex;
+    align-items: center;
+    padding: 18px 0 6px;
+    justify-content: center;
+  }
+  .rightservice-provide
+    .chooseright-slide
+    .counter-single-box
+    .counter-box-title
+    .odometer {
+    color: #041c33;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Unbounded";
+    font-style: normal;
+  }
+  .rightservice-provide
+    .chooseright-slide
+    .counter-single-box
+    .counter-box-title
+    .counter-desc
+    h5 {
+    display: inline-block;
+    /* padding: 0; */
+    font-size: 32px;
+    color: #041c33;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: "Unbounded";
+  }
+  /* end Service We Provide */

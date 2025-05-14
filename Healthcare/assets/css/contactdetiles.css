@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* strat Our Get in Touch */
+.main-Touch {
+  padding: 60px 0;
+  margin-bottom: 60px;
+  
+}
+
+.main-Touch .container .Touch-inner h5 {
+  margin-bottom: 8px;
+  color: #0495ff;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 130%;
+  text-align: left;
+}
+.main-Touch .container .Touch-inner h5::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 44%;
+    top: 64px;
+    background: url("../img/shape5.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: wooo 3.5s infinite;
+
+}
+
+
+.main-Touch .container .Touch-inner h2 {
+  font-size: 15px;
+  /* background-image: url("../img/text.png"); */
+  background-color: black;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 125%;
+  letter-spacing: -0.47px;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  background-position: right;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-size: 47px;
+  line-height: 125%;
+  letter-spacing: -0.47px;
+}
+.main-Touch .container .Touch-inner p {
+  margin-bottom: 48px;
+  color: #817f7e;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.main-Touch .container .Touch-inner .touch-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info {
+  margin-bottom: 24px;
+  flex: 0 0 auto;
+  width: 50%;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info h4 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #282525;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 27px;
+  line-height: 120%;
+  letter-spacing: -0.27px;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info p {
+  margin-bottom: 32px;
+  color: #817f7e;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  text-align: left;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info form {
+  position: relative;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-right: 101px;
+  margin-left: 10px;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info .form-row .col {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .left-info
+  .form-row
+  .form-controlo {
+  padding: 12px 4px 12px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  position: relative;
+  color: #282525;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 15px;
+  border: 1px solid #cdcccb;
+  margin-bottom: 24px;
+  display: block;
+  width: 100%;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .left-info
+  .form-row
+  .form-controlo
+  .col-btn {
+  width: 100%;
+  padding: 12px 24px;
+}
+.main-Touch .container .Touch-inner .touch-row .left-info .form-row .form-btn {
+  position: relative;
+  background-color: #0495ff;
+  padding: 0 236px;
+  border-radius: 10px;
+  border: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #fffbfa;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .left-info
+  .form-row
+  .form-btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(5deg);
+  background: #c3d64b;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .left-info
+  .form-row
+  .form-btn:hover::before {
+  width: 105%;
+}
+
+.main-Touch .container .Touch-inner .touch-row .right-info {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.main-Touch .container .Touch-inner .touch-row .right-info .right-inner {
+  padding: 24px;
+  border-radius: 30px;
+  background-color: #f6f4f4;
+  box-sizing: border-box;
+}
+.main-Touch .container .Touch-inner .touch-row .right-info .right-inner .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 58px;
+  margin-left: 15px;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .right-info
+  .right-inner
+  .row
+  .Contact {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .right-info
+  .right-inner
+  .row
+  .Contact
+  h5 {
+  margin-bottom: 24px;
+  color: #282525;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 130%;
+}
+
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .right-info
+  .right-inner
+  .row
+  .Contact
+  .contact-detail
+  .icon-box {
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.main-Touch
+  .container
+  .Touch-inner
+  .touch-row
+  .right-info
+  .right-inner
+  .row
+  .Contact
+  .contact-detail
+  .icon-box
+  img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.main-Touch .container .Touch-inner .touch-row .social-link h5 {
+  margin-bottom: 24px;
+  color: #282525;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 130%;
+}
+.main-Touch .container .Touch-inner .touch-row .social-link ul {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.main-Touch .container .Touch-inner .touch-row .social-link ul li a {
+  background: #fffbfa;
+  padding: 12px;
+  border-radius: 50%;
+}
+.map-surat {
+  display: flex;
+  width: 50%;
+}
+.map-surat .map iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin: 0 50px;
+}
+
+#textfives{
+  text-align: center;
+}
+
+
+.map-surat .map iframe {
+  width: 159%;
+  height: 404px;   /* Adjusts the height for good visibility */
+  border: none;     /* Removes the iframe border */
+}
+
+/* end Our Get in Touch */
+@media screen and (max-width: 1400px){
+  .map-surat .map iframe {
+    width: 139%;
+    height: 404px;
+    border: none;
+  }
+  .breatcome-content h1 {
+    margin: 168px 434px 28px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .main-Touch .container .Touch-inner .touch-row .left-info .form-row .form-btn {
+    padding: 0 192px;
+  }
+  .map-surat .map iframe {
+    width: 133%;
+    height: 404px;
+    border: none;
+  }
+  .breatcome-content h1 {
+    margin: 167px 343px 28px;
+  }
+  .map-surat .map iframe {
+    width: 109%;
+    height: 404px;
+  } 
+   .map-surat .map iframe {
+    width: 117%;
+    height: 398px;
+    border: none;
+  }
+
+  .map-surat .map iframe {
+    width: 134%;
+    height: 404px;
+    border: none;
+  }
+  .breatcome-content h1 {
+    margin: 168px 430px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 417px 28px;
+  }
+  .map-surat .map iframe {
+    width: 114%;
+    border: none;
+  }
+  .breatcome-content h1 {
+    margin: 168px 362px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 330px 28px;
+  }
+
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .main-Touch .container .Touch-inner .touch-row {
+    flex-direction: column; /* Stack sections vertically */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info,
+  .main-Touch .container .Touch-inner .touch-row .right-info {
+    width: 100%; /* Each section takes full width */
+  }
+
+  .map-surat {
+    width: 100%; /* Map takes full width */
+  }
+
+  .main-Touch .container .Touch-inner h2 {
+    font-size: 35px; /* Slightly smaller font size for smaller screens */
+  }
+  .main-Touch .container .Touch-inner .touch-row .left-info .form-row .form-btn {
+    padding: 15px 302px;
+  }
+  .main-Touch .container .Touch-inner h5::before {
+    left: 42%;
+  }
+  .main-Touch .container .Touch-inner .touch-row .right-info .right-inner .row .Contact {
+    flex: 0 0 auto;
+    width: 100.667%;
+  }
+  .main-Touch .container .Touch-inner .touch-row .right-info .right-inner .row .Contact .contact-detail .icon-box {
+    margin: 9px 296px;
+  }
+ 
+  .main-Touch .container .Touch-inner h5::before {
+    left: 39%;
+  }
+  .breatcome-content h1 {
+    margin: 167px 326px 28px;
+  }
+  .map-surat .map iframe {
+    width: 188%;
+    height: 404px;
+    margin: -9px 47px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 289px 28px;
+  }
+  .map-surat .map iframe {
+    width: 164%;
+    height: 404px;
+    margin: -9px 46px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 271px 28px;
+  }
+  .map-surat .map iframe {
+    width: 170%;
+    height: 404px;
+    margin: -9px 20px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 229px 28px;
+  } 
+  
+}
+
+/* For screens between 767px and 576px */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .main-Touch .container .Touch-inner .touch-row {
+    flex-direction: column; /* Stack sections vertically */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info,
+  .main-Touch .container .Touch-inner .touch-row .right-info {
+    width: 100%; /* Each section takes full width */
+  }
+
+  .map-surat {
+    width: 100%; /* Map takes full width */
+    margin: 0 0 20px 0; /* Margin to add space around the map */
+  }
+
+  .main-Touch .container .Touch-inner h2 {
+    font-size: 30px; /* Further reduce font size for smaller screens */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info form .form-controlo {
+    font-size: 14px; /* Make form inputs slightly smaller */
+  }
+  .main-Touch .container .Touch-inner h5::before {
+    left: 39%;
+  }
+  .main-Touch .container .Touch-inner h5::before {
+    left: 37%;
+  }
+  .breatcome-content h1 {
+    margin: 167px 212px 28px;
+  }
+  .map-surat .map iframe {
+    width: 99%;
+    height: 401px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 138px 27px;
+  }
+  
+}
+
+/* For screens smaller than 576px (mobile screens) */
+@media screen and (max-width: 576px) {
+  .main-Touch .container .Touch-inner h2 {
+    font-size: 28px; /* Smaller font size for mobile */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info,
+  .main-Touch .container .Touch-inner .touch-row .right-info {
+    width: 100%; /* Full width for all sections */
+  }
+
+  /* .map-surat {
+    display: none; Hide map on small screens
+  } */
+
+  .main-Touch .container .Touch-inner .touch-row .left-info .form-row {
+    margin-top: 5px; /* Reduce space between form fields */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info .form-row .form-controlo {
+    font-size: 14px; /* Adjust form input size for mobile */
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .left-info .form-row .form-btn {
+    padding: 10px 20px; /* Adjust button padding for mobile */
+  }
+  .main-Touch .container .Touch-inner h5::before {
+    left: 35%;
+  }
+  .main-Touch .container .Touch-inner h5::before {
+    left: 27%;
+  }
+  .breatcome-content h1 {
+    margin: 167px 132px 27px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 61px 27px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 16px 27px;
+  }
+  strong {
+    font-weight: bolder;
+    font-size: 12px;
+  }
+
+  .main-Touch .container .Touch-inner .touch-row .right-info .right-inner .row .Contact .contact-detail .icon-box {
+    margin: 0 -33px;
+  }
+  strong {
+    font-weight: bolder;
+    font-size: 12px;
+    margin: 0 -11px;
+  }
+  .map-surat .map iframe {
+    width: 96%;
+    height: 404px;
+  }
+  .main-Touch .container .Touch-inner .touch-row .social-link ul {
+    gap: 8px;
+    margin: 0 -31px;
+  }
+  .map-surat .map iframe {
+    width: 94%;
+    height: 399px;
+  }
+}

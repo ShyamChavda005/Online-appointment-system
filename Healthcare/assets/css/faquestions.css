@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .faq-section{
+  background: url("../img/service1bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .main-faq{
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  .left-faq{
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 0 25px;
+  }
+  .tab-faq{
+    padding: 105px 0 60px;
+    overflow: hidden;
+  }
+  .faq-text h1{
+    font-size: 28px;
+  font-weight: 700;
+  color: #041c33;
+  font-family: "Unbounded";
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 1.2;
+  }
+
+  .faq-text p{
+    color: #002570;
+  padding: 20px 0 32px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+
+  .faq-style{
+    font-style: normal;
+  font-weight: 400;
+  /* margin: 0px; */
+  /* padding: 0px; */
+  padding: 0px 0 16px;
+  }
+
+.accordion .accordion-item {
+  /* border-bottom: 1px solid #e5e5e5; */
+  position: relative;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  color: #0495ff;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  border: 2px solid #ffffff;
+  padding: 16px 20px 16px 25px;
+  border-radius: 15px;
+  z-index: 1;
+  border-right: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  margin: 35px -6px;
+
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+  
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion-title{
+    color: black;
+    cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 16px 20px 16px 25px;
+  border-radius: 15px;
+  font-family: "Unbounded";
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 12px;
+  left: 9px;
+  width: 10px;
+  height: 2px;
+  background: #0495ff;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 8px;
+  left: 13px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #041c33;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  
+  font-weight: 300;
+  margin: 2em 0;
+  color: rgb(101, 103, 122);
+  font-size: 16px;
+  font-family: "Unbounded";
+  
+}
+.right-faq{
+    width: 50%;
+}
+
+.faq-botten{
+    background: url("../img/service1bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-faqbotten{
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.faqtext-botten{
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+
+.tab_container h2{
+    color: #041c33;
+  font-family: "Unbounded";
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 1.2;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.tab_container p{
+    color: #002570;
+  padding: 20px 0 32px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+#faq-all{
+    padding: 0 0;
+}
+
+
+@media (min-width: 1401px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .left-faq, .right-faq {
+        width: 50%;
+    }
+}
+
+/* Media query for screens between 1024px and 1400px (Tablets and large laptops) */
+@media (max-width: 1400px) and (min-width: 1024px) {
+    .main-faq {
+        flex-direction: row;
+    }
+
+    .left-faq, .right-faq {
+        width: 50%;
+    }
+
+    .faq-text h1 {
+        font-size: 26px;
+    }
+
+    .accordion .accordion-item {
+        padding: 18px 22px;
+    }
+
+    .accordion button {
+        font-size: 1.1rem;
+    }
+}
+
+/* Media query for screens between 768px and 1024px (Medium tablets and smaller laptops) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .main-faq {
+        flex-direction: column;
+    }
+
+    .left-faq, .right-faq {
+        width: 100%;
+    }
+
+    .faq-text h1 {
+        font-size: 24px;
+    }
+
+    .accordion .accordion-item {
+        padding: 14px 18px;
+    }
+
+    .accordion button {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for screens between 576px and 768px (Large phones) */
+@media (max-width: 768px) and (min-width: 576px) {
+    /* .container {
+        padding: 0 10px;
+    }
+
+    .faq-section {
+        background-size: contain;
+    }
+
+    .faq-text h1 {
+        font-size: 22px;
+    }
+
+    .accordion .accordion-item {
+        padding: 12px 16px;
+    }
+
+    .accordion button {
+        font-size: 0.95rem;
+    } */
+    .main-faq {
+        flex-direction: column;
+    }
+
+    .left-faq, .right-faq {
+        width: 100%;
+    }
+
+    .faq-text h1 {
+        font-size: 24px;
+    }
+
+    .accordion .accordion-item {
+        padding: 14px 18px;
+    }
+
+    .accordion button {
+        font-size: 1rem;
+    }
+}
+
+/* Media query for screens below 576px (Mobile devices) */
+@media (max-width: 576px) {
+    .main-faq {
+        flex-direction: column;
+    }
+
+    .left-faq, .right-faq {
+        width: 100%;
+    }
+
+    .faq-text h1 {
+        font-size: 24px;
+    }
+
+    .accordion .accordion-item {
+        padding: 14px 18px;
+    }
+
+    .accordion button {
+        font-size: 1rem;
+    }
+}

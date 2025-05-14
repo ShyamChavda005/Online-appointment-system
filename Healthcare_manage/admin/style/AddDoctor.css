@@ -1,0 +1,195 @@
+.content {
+    margin-left: 250px;
+    padding: 0 0px;
+    background-color: #f9f9f9;
+}
+
+.header-list {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+.left {
+    align-items: center;
+}
+
+.left {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left a:hover {
+    color: #007bff;
+}
+
+.left span {
+    color: #0063cc;
+}
+
+.content .container {
+    min-height: 145vh;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group input[type="file"] {
+    padding: 10px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.radiogroup {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin: 10px 20px; 
+}
+
+.radiogroup label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 12px;
+}
+
+.radiogroup input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.form-group button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+    margin: 2vh 5vw;
+    transition: all ease 0.3s;
+    letter-spacing: 1px;
+}
+
+.form-group button:hover {
+    background: #0056B3;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group #update {
+    background: #0066cc;
+}
+
+.btn-group #update:hover {
+    background: #004999;
+}
+
+.btn-group #reset {
+    background: #dc3545;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 0px;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border: 1px solid blue;
+    }
+
+    .header-list {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .radiogroup label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        padding: 15px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 13px;
+    }
+
+    .radiogroup label {
+        font-size: 15px;
+    }
+
+    .radiogroup input[type="radio"] {
+        width: 16px;
+        height: 16px;
+    }
+}

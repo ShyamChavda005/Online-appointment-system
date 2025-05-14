@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  /* start subscribe doctor */
+.subscribe-doctor {
+    background: url("../img/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    padding: 60px 0 60px;
+  }
+  .subscribe-doctor .container .main-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content {
+    display: flex;
+    align-items: center;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .leftsubscribe
+    .subscribe-content
+    .subscribe-title
+    h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Unbounded";
+    font-style: normal;
+    max-width: 565px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2 {
+    position: inherit;
+    background: transparent;
+    padding: 0;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  .counter_icon2 {
+    text-align: center;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2
+    .counter_icon2
+    img {
+    filter: brightness(0) invert(1);
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2
+    .subscribe-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2
+    .subscribe-count
+    h3 {
+    font-size: 39px;
+    font-weight: 800;
+    color: #edf5fc;
+    font-family: "Unbounded";
+    font-style: normal;
+    line-height: 1.2;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2
+    .subsccribe-desc {
+    text-align: center;
+  }
+  .subscribe-doctor
+    .container
+    .main-subscribe
+    .right-subscribe
+    .subscriberightsild
+    .counter-single-box2
+    .subsccribe-desc
+    p {
+    color: #ffff;
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    max-width: 149px;
+  }
+  
+  .btn {
+    padding: 18px 42px;
+    display: inline-block;
+    border-radius: 32px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 1px solid #0495ff;
+    background-color: #041c33;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Unbounded";
+  }
+  
+  .btn::before{
+    content: " ";
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(5deg);
+    background: #dceaa2;
+    transition: 0.5s ease;
+    display: block;
+    z-index: -1;
+  }
+
+  .btn:hover::before {
+    width: 105%;
+    color: #FFFBFA;
+  }
+
+  .btn a{
+    color: black;
+  }
+  
+  /* end subscribe doctor */

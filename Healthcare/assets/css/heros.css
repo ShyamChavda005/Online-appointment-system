@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Start mediket Hero Section  */
+.hereo-selection {
+  background: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.hereo-selection .container .main-hereo {
+  align-items: center;
+  display: flex;
+}
+
+.hereo-selection .container .main-hereo .left-selection {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content {
+  margin-top: 303px;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content h4 {
+  font-size: 15px;
+  color: #0495ff;
+  font-weight: 400;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+  margin: 11px 0;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Unbounded", serif;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content h1 span {
+  color: #dceaa2;
+  transform: rotate(-9deg);
+  display: inline-block;
+  font-family: "Unbounded", serif;
+  font-style: normal;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 24px 9px 21px;
+  font-style: normal;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+  padding: 18px 42px;
+  display: inline-block;
+  border-radius: 32px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  border: 1px solid #0495ff;
+  background-color: #0495ff;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Unbounded";
+}
+
+
+.hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn::before {
+  content: " ";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(5deg);
+  background: #dceaa2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn:hover::before {
+  width: 105%;
+  color: #FFFBFA;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn a {
+  color: black;
+}
+
+.hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn a i {
+  padding-left: 7px;
+  position: relative;
+  top: 3px;
+  transform: rotate(-25deg);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* .hereo-selection
+    .container
+    .main-hereo
+    .left-selection
+    .hero-content
+    .mediket-btn:hover {
+    background-color: #e5d9f2;
+  } */
+
+/* .mediket-btn a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+       white 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+  } */
+
+/* .mediket-btn a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+  } */
+
+/* .mediket-btn a:hover {
+    background-position: 0;
+  } */
+
+/* .mediket-btn a:hover::before {
+    width: 100%;
+  } */
+
+.heore-btoon-selection {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 52px;
+  position: relative;
+  z-index: 1;
+}
+
+.heore-btoon-selection::before {
+  position: absolute;
+  right: 53%;
+  top: 25px;
+  content: "";
+  width: 1px;
+  height: 69px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
+.heore-btoon-selection .medik-hero {
+  float: left;
+  /* margin-right: 20px; */
+  /* margin: 7px 11px; */
+  margin: 28px 8px;
+}
+
+.heore-btoon-selection .mdik-contect {
+  overflow: hidden;
+  margin-top: 6px;
+  position: relative;
+  z-index: 1;
+  /* margin:-15px 45px ; */
+}
+
+.heore-btoon-selection .mdik-contect p {
+  text-align: left;
+  padding: 0;
+  font-size: 14px;
+  color: #ffffff8a;
+  font-weight: 400;
+  font-family: "Open Sans";
+  position: relative;
+  z-index: 1;
+  margin: 0 0 3px;
+  padding-left: 15px;
+}
+
+.heore-btoon-selection .mdik-contect #num {
+  margin: -4px 7px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Unbounded";
+}
+
+.heore-btoon-selection .mdik-contect:hover #num {
+  color: gold;
+}
+
+.leftbtoon-box h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Unbounded";
+  color: #fff;
+  /* margin: 0 -53px; */
+  margin: 0 -36px;
+  margin: 12px -4px;
+}
+
+.leftbtoon-box h3 img {
+  margin-right: 12px;
+  transition: 0.5s;
+  vertical-align: middle;
+}
+
+.leftbtoon-box:hover h3 {
+  color: gold;
+}
+
+.lefthero-box {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.lefthero-box .hereo-thems {
+  position: relative;
+  z-index: 1;
+  margin-top: 176px;
+  right: 20px;
+}
+
+.lefthero-box .hereo-thems img {
+  transition: 0.5s;
+  vertical-align: middle;
+}
+
+.lefthero-box .hereo-thems .hero-sheap {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-sheap img {
+  transition: 0.5s;
+  vertical-align: middle;
+}
+
+.hero-sheap:nth-child(2) {
+  left: 44%;
+  top: 5%;
+  animation: wooo 3.5s infinite;
+}
+
+@keyframes wooo {
+  0% {
+    transform: rotate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate3d(0, 1, 0, 180deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 1, 0, 359deg);
+  }
+}
+
+.lefthero-box .hereo-thems .hero-shapes {
+  position: absolute;
+  left: 60%;
+  top: 6%;
+  z-index: -1;
+}
+
+.lefthero-box .hereo-thems .bounce-animate {
+  animation-name: float-bob;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: 0 -9px;
+}
+
+@keyframes float-bob {
+  0% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+}
+
+.leftbtoon-box {
+  margin: 0 28px;
+}

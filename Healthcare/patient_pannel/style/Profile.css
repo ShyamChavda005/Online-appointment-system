@@ -1,0 +1,204 @@
+.content {
+    margin-left: 250px;
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.header-list {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+.left {
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.right,.left a {
+    text-decoration: none;
+    color: #333;
+}
+
+.right,.left a:hover {
+    color: #007bff;
+}
+
+.right,.left span {
+    color: #0063cc;
+}
+
+.change-password {
+    display: inline-block;
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rechange-btn {
+    background-color: #1E88E5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 20%;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+}
+
+.password-rechange {
+    display: none;
+}
+
+.content .container {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.form-container {
+    padding: 0 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group button {
+    background-color: #0063cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+    margin: 2vh 5vw;
+    transition: all ease 0.3s;
+}
+
+.form-group button:hover {
+    background: #0056B3;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.rechange-btn {
+    background-color: #1E88E5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 20%;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+}
+
+.password-rechange {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .header-list {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .profile-header {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .profile-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .profile-image img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .form-container {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .rechange-btn {
+        width: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    .right {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .profile-header {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto 20px;
+    }
+
+    .profile-content {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .profile-image img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .profile-details h2 {
+        font-size: 18px;
+    }
+
+    .profile-details p {
+        font-size: 14px;
+    }
+
+    .rechange-btn {
+        width: 60%;
+    }
+
+}

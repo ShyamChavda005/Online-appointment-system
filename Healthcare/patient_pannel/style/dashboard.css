@@ -1,0 +1,146 @@
+.content {
+    margin-left: 250px;
+    padding: 0 10px;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+}
+
+.header-list {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+.left,
+.right {
+    align-items: center;
+}
+
+.left {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Dashboard Cards */
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Reduced min size */
+    gap: 15px; /* Reduced gap */
+    padding: 15px; /* Less padding */
+}
+
+.info-container .info-box {
+    position: relative;
+    width: 100%;
+    background: #ffffff; /* White Background */
+    border-radius: 12px; /* Slightly smaller corners */
+    padding: 18px; /* Reduced padding */
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #007bff; /* Slimmer accent border */
+}
+
+/* Hover Effect */
+.info-container .info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Default Icon Styling */
+.info-box .info-icon {
+    font-size: 2.5rem; /* Slightly smaller icons */
+    margin-bottom: 10px; /* Reduced spacing */
+    color: #007bff; /* Blue Icons */
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out; /* Smooth effect */
+}
+
+/* Hover Effect on Icons */
+.info-box:hover .info-icon {
+    transform: rotate(15deg);
+    color: #0056b3; /* Darker Blue */
+}
+
+/* Card Text */
+.info-box h3 {
+    font-size: 1.5rem; /* Reduced font size */
+    font-weight: 700;
+    color: #333; /* Dark Text */
+}
+
+.info-box p {
+    font-size: 0.9rem; /* Slightly smaller text */
+    font-weight: 500;
+    color: #666;
+}
+
+/* View Details Button */
+.info-box .view-details {
+    display: inline-block;
+    margin-top: 8px; /* Less spacing */
+    font-size: 13px; /* Reduced button font size */
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff; /* Blue Accent */
+    border-bottom: 2px solid rgba(0, 123, 255, 0.5);
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.info-box .view-details:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}f
+
+#chart {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* max-height: 450px; */
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 0;
+    }
+
+    .header-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-list {
+        margin-bottom: 80px;
+    }
+
+    .right {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-search input,
+    .input-search button {
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 0px;
+    }
+
+    .info-box {
+        min-width: 100%;
+    }
+
+    .info-container {
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,283 @@
+.content {
+    margin-left: 250px;
+    padding: 0 0px;
+    overflow-x: hidden;
+    background-color: #f9f9f9;
+}
+
+.header-list {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+}
+
+.left,
+.right {
+    align-items: center;
+}
+
+.left {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left a:hover {
+    color: #007bff;
+}
+
+.left span {
+    color: #0063cc;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right select {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-search input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.input-search button {
+    padding: 10px 30px;
+    font-size: 14px;
+    background-color: #0063cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.input-search button:hover {
+    background-color: #0056b3;
+}
+
+.content .container {
+    min-height: 73vh;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+}
+
+.table-container {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    text-transform: uppercase;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit {
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+}
+
+.edit img {
+    vertical-align: middle;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #3ec26c;
+  }
+  
+  input:focus + .slider {
+    outline: none;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 0px;
+    }
+
+    .content .container {
+        width: 100%;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .table-container {
+        margin: 0 auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .box {
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .header-list {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .input-search {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-search input,
+    .input-search button {
+        width: 100%;
+    }
+
+    .right select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content .container {
+        width: 100%;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 15vh;
+        background-color: #f9f9f9;
+    }
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+        min-width: 800px;
+    }
+
+    .right {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-search input,
+    .input-search button {
+        width: 100%;
+    }
+}

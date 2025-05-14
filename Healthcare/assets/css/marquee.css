@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  /* strat marquee-section */
+.marquee-section {
+    background: #0495ff;
+    padding: 45px 0 50px;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .marquee-section .container-fluid .mainmarquee {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .marquee-section .container-fluid .mainmarquee .innermarquee {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .marquee-section .container-fluid .mainmarquee .innermarquee .marquee {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+  }
+  .marquee-section
+    .container-fluid
+    .mainmarquee
+    .innermarquee
+    .marquee
+    .marqueesingle-box {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: scroll 50s linear infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+  .marquee-section
+    .container-fluid
+    .mainmarquee
+    .innermarquee
+    .marquee
+    .marqueesingle-box
+    .marquee-content
+    h2 {
+    display: inline-block;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .marquee-section
+    .container-fluid
+    .mainmarquee
+    .innermarquee
+    .marquee
+    .marqueesingle-box
+    .marquee-content
+    h2
+    span
+    img {
+    margin: -6px 30px 0 20px;
+    display: inline-block;
+    animation: rotateme 8s linear infinite;
+    vertical-align: middle;
+  }
+  @keyframes rotateme {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* end marquee-section */
+  

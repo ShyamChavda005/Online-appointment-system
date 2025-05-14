@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+/* strat Doctors team-section */
+.team-section {
+  padding: 108px 0 90px;
+  position: relative;
+  background: url("../img/team_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.team-section .container .maintop-tem {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.team-section .container .maintop-tem .left-tem {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+.team-section .container .maintop-tem .left-tem .doctorsselection h4 {
+  color: #0495ff;
+  padding: 0 0 23px 25px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-family: "Unbounded";
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+.team-section .container .maintop-tem .left-tem .doctorsselection h4::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  left: 0;
+  top: 1px;
+  background: url("../img/shape6.png");
+  height: 15px;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: wooo 3.5s infinite;
+}
+.team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 46px;
+  color: #041c33;
+  font-weight: 600;
+  font-family: "Unbounded";
+  font-style: normal;
+  max-width: 607px;
+}
+.team-section .container .maintop-tem .right-doctors {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+  margin-top: 59px;
+  text-align: center;
+  font-size: 17px;
+}
+.team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+  padding: 18px 42px;
+  display: inline-block;
+  border-radius: 32px;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  border: 1px solid #0495ff;
+  background-color: #0495ff;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Unbounded";
+  font-style: normal;
+  text-decoration: none;
+  top: -33px;
+  left: 98px;
+}
+
+.team-section .container .maintop-tem .right-doctors .mediket-btn6::before{
+  content: " ";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(5deg);
+  background: #dceaa2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.team-section .container .maintop-tem .right-doctors .mediket-btn6:hover::before {
+  width: 105%;
+  color: #FFFBFA;
+}
+
+.team-section .container .maintop-tem .right-doctors .mediket-btn6 a{
+  color: black;
+}
+.team-section .container .botoon-doctor {
+  display: flex;
+  flex-wrap: wrap;
+  /* border-radius: 50px; */
+}
+.team-section .container .botoon-doctor .doctor-part {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  /* margin: 15px; */
+  padding: 0 15px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box {
+  padding: 52px 30px 30px;
+  border-radius: 10px;
+  background-color: #edf7ff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0px 20px 50px rgba(212, 228, 242, 0.6));
+  background-image: linear-gradient(
+    180deg,
+    rgba(237, 247, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 86%
+  );
+  margin-bottom: 30px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  border-bottom: 2px solid #0495ff;
+  border-right: 2px solid #0495ff;
+  transition: all linear 0.5s;
+}
+
+.team-single-box:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-top: 2px solid #0495ff;
+  border-left: 2px solid #0495ff;
+  transition: all linear 0.5s;
+}
+.team-single-box:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 10px;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-thumb {
+  position: relative;
+  z-index: 21;
+  display: inline-block;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-thumb::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 5px;
+  width: 280px;
+  height: 280px;
+  z-index: 2;
+  transition: all linear 0.5s;
+  border-radius: 50%;
+}
+.team-thumb:hover::before {
+  border: 3px solid #0495ff;
+}
+.team-single-box:hover .team-thumb::before {
+  border: 3px solid #0495ff;
+}
+
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-thumb
+  img {
+    top: -12px;
+    left: 4px;
+    vertical-align: middle;
+    position: relative;
+    transition: 0.5s;
+    align-items: center;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content {
+  text-align: center;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 47px 0 3px;
+  color: #041c33;
+  font-family: "Unbounded";
+  font-style: normal;
+  line-height: 1.2;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  h5 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  background: #0495ff;
+  display: inline-block;
+  padding: 7px 30px;
+  border-radius: 20px;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .dtilte {
+  margin: 16px 0;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .social-icon {
+  border-top: 1px solid #00000012;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .social-icon
+  ul {
+  font-style: normal;
+  font-weight: 400;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .social-icon
+  ul
+  li {
+  display: inline-block;
+  padding-right: 9px;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+}
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .social-icon
+  ul
+  li
+  a {
+    width: 33px;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: black;
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #00000030;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.team-section
+  .container
+  .botoon-doctor
+  .doctor-part
+  .team-single-box
+  .team-content
+  .social-icon
+  ul
+  li
+  a:hover {
+  background: #0495ff;
+  border: 1px solid #0495ff;
+}
+
+/* end Doctors team-section */
+
+
+

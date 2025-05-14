@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.doctors-about{
+  padding: 110px 0 85px;
+  background:white;
+  position: relative;
+}
+
+.main-aboutdoctors{
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+flex-wrap: wrap;
+}
+
+.top-doctors{
+  flex: 0 0 auto;
+  width: 100%;
+}
+.doctors-text h4{
+  text-align: center;
+  color: #48b1ff;
+font-size: 16px;
+font-weight: 400;
+font-family: "Unbounded";
+font-style: normal;
+line-height: 1.2;
+}
+
+/* .doctors-text h4::before{
+  position: absolute;
+  z-index: 1;
+  content: '';
+  left: 674px;
+  top: 110px;
+background: url("../img/shape.png");
+height: 15px;
+width: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+animation: wooo 3.5s infinite;
+}
+
+@keyframes wooo {
+  0% {
+      transform: rotate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 359deg);
+    }
+} */
+
+.doctors-text h1{
+  text-align: center;
+  margin: 0;
+font-size: 42px;
+line-height: 52px;
+font-weight: 600;
+font-family: "Unbounded";
+color: #041c33;
+}
+
+.bottom-doctors{
+  display: flex;
+flex-wrap: wrap;
+}
+
+.doctors-box{
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  padding: 0 15px;
+}
+.inner-doctors{
+  margin-bottom: 30px;
+  
+}
+
+.doctors-team{
+  position: relative;
+  
+}
+
+.doctors-team img{
+  width: 100%;
+  vertical-align: middle;
+  border-radius:25px ;
+}
+
+.doctors-team {
+transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+border: 5px solid transparent;
+border-radius: 25px;
+}
+
+.doctors-team:hover {
+transform: scale(1.01);
+border: 5px solid black;
+border-radius: 25px;
+}
+
+/* .doctors-team {
+transition: transform 0.3s ease-in-out;
+}
+
+.doctors-team:hover {
+transform: rotate(10deg);
+} */
+
+/* .doctors-team {
+transition: filter 0.3s ease-in-out;
+}
+
+.doctors-team:hover {
+filter: blur(1px);
+} */
+
+/* .doctors-team {
+transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.doctors-team:hover {
+transform: scale(1.1) rotate(5deg);
+filter: grayscale(0%) blur(2px);
+} */
+
+
+/* .doctors-team{
+transition: filter 0.3s ease-in-out;
+}
+
+.doctors-team:hover {
+filter: brightness(1.2);
+} */
+
+
+
+.social-icon{
+  position: absolute;
+top: 0;
+right: 0;
+margin-top: 0;
+opacity: 0;
+transition: 0.5s;
+border-top: 1px solid #00000012;
+padding-top: 20px;
+}
+
+.doctorsteam-content h2{
+  margin: 35px 0 3px;
+  font-size: 20px;
+  color: #041c33;
+  font-weight: 500;
+  font-family: "Unbounded";
+  line-height: 1.2;
+  font-style: normal;
+}
+
+.doctorsteam-content h5{
+  background: transparent;
+  display: inline-block;
+  padding: 4px 0 0;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "Open Sans";
+  font-style: normal;
+margin-bottom: 0;
+margin-top: 10px;
+line-height: 1.2;
+}
+
+.team-btn{
+float: right;
+margin-top: -28px;
+}
+.team-btn a{
+display: inline-block;
+width: 60px;
+height: 60px;
+border-radius: 30px;
+background-color: #041c33;
+border: 1px solid rgba(13,18,36,0.15);
+line-height: 60px;
+text-align: center;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
+}
+.team-btn:hover a{
+background-color: #0495ff;
+}
+
+
+@media (min-width: 1400px) {
+.doctors-box {
+    width: 33.33333333%; /* Display 3 columns */
+}
+}
+
+/* For medium screens 1024px to 1400px */
+@media (max-width: 1400px) and (min-width: 1024px) {
+.doctors-box {
+    width: 50%; /* Display 2 columns */
+}
+
+.doctors-text h1 {
+    font-size: 36px; /* Reduce font size */
+}
+
+.bottom-doctors {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+/* For small screens 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 768px) {
+.doctors-box {
+    width: 50%; /* Display 2 columns */
+}
+
+.doctors-text h1 {
+    font-size: 32px; /* Reduce font size */
+}
+
+.doctors-text h4 {
+    font-size: 14px; /* Reduce font size */
+}
+}
+
+/* For very small screens 576px to 768px */
+@media (max-width: 768px) and (min-width: 576px) {
+.doctors-box {
+    width: 100%; /* Display 1 column */
+}
+
+.doctors-text h1 {
+    font-size: 28px; /* Reduce font size */
+}
+
+.doctors-text h4 {
+    font-size: 12px; /* Reduce font size */
+}
+
+.main-aboutdoctors {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+}
+
+.doctorsteam-content h2 {
+    font-size: 18px; /* Reduce font size */
+}
+
+.doctorsteam-content h5 {
+    font-size: 14px; /* Reduce font size */
+}
+
+.team-btn a {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+}
+}
+
+/* For extra small screens below 576px */
+@media (max-width: 576px) {
+.doctors-box {
+    width: 100%; /* Display 1 column */
+    padding: 0 10px;
+}
+
+.doctors-text h1 {
+    font-size: 24px; /* Further reduce font size */
+}
+
+.doctors-text h4 {
+    font-size: 12px; /* Further reduce font size */
+}
+
+.team-btn a {
+    width: 45px;
+    height: 45px;
+    font-size: 12px;
+}
+}

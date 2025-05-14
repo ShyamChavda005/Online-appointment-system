@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+
+.breatcome-section{
+    background: url("../img/breatcome.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 448px;
+  margin-top: 16px;
+  position: relative;
+}
+.contact-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.breatcome-content{
+  text-align: center;
+}
+
+.breatcome-content h1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 168px 472px 1px;
+}
+.contact-list{
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li{
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0 0;
+}
+.contact-list li a{
+  transition: 0.5s;
+  padding: 0 8px 0 0;
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  color: #0495ff;
+  font-weight: 600;
+  font-family: "Open Sans";
+text-decoration: none;
+}
+.mediket-appoinment{
+  padding: 120px 0 108px;
+}
+.appoinment-inner{
+  /* margin:141px 183px; */
+  margin: 0;
+  background: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+}
+.appoinment-inner{
+  display:flex;
+}
+.first-app{
+  flex: 0 0 auto;
+  width: 33.33%;
+}
+.inner-appbox{
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 0 14px;
+}
+.inner-appbox::before{
+  position: absolute;
+  right: 0;
+  top: 92px;
+  content: '';
+  width: 2px;
+  height: 130px;
+  background-color: rgba(255,255,255,0.5019607843137255);
+}
+.app-text{
+  text-align: center;
+}
+.app-icon{
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #ffff;
+  display: inline-block;
+  font-size: 25px;
+  color:#0495ff;
+  position: relative;
+}
+
+.main-header {
+  padding: 39px 64px 48px !important;
+}
+
+
+
+/* Base styles (for mobile-first design) */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* start toper header */
+.toper_area {
+  background-color: #0495ff;
+  padding: 11px 30px 11px 48px;
+  position: relative;
+  z-index: 5;
+}
+
+.toper_area .main-rowtoper {
+  display: flex;
+  align-items: center;
+}
+
+.toper_area .main-rowtoper .innertop-row {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.toper_area .main-rowtoper .innertop-row2 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.toper_area .main-rowtoper .innertop-row .toper-textleft p {
+  margin: 0;
+  font-size: 15px;
+  color: #041c33;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+  text-align: right;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+/* start main header */
+.main-header {
+  transition: 0.5s;
+  z-index: 2;
+  position: relative;
+  padding: 39px 64px 48px;
+  background-color: rgba(255, 255, 255, 0.050980392156862744);
+  margin-bottom: -107px;
+  position: sticky;
+}
+
+.menu-inner {
+  display: flex;
+  margin: -44px 237px;
+}
+
+.menu-inner li {
+  display: block;
+  position: relative;
+  list-style: none;
+}
+
+.menu-inner li a {
+  display: block;
+  margin: 0 17px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 17px 0;
+  text-decoration: none;
+}
+
+.menu-inner li a:hover {
+  color: #0495ff;
+}
+/* .header-button1 a {
+  padding: 3px 30px !important;
+  margin: 13px -83px !important;
+} */
+
+/* start media queries */
+@media (max-width: 1200px) {
+  .container {
+    max-width:1140px;
+  }
+  .contact-row {
+    margin-left: -11px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 398px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 386px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 367px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 337px 28px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width:960px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 311px 28px;
+  }
+  /* .menu-inner li a {
+    margin: 0px 11px !important;
+    font-size: 12px !important;
+  } */
+  .navbar-toggler .fa-solid.fa-align-left {
+    margin: -17px 113px !important;
+  }
+  .breatcome-content h1 {
+    margin: 168px 276px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 234px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 168px 227px 28px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width:720px;
+  }
+  .breatcome-content h1 {
+    margin: 167px 217px 28px;
+  }
+
+  .breatcome-content h1 {
+    margin: 161px 180px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 161px 163px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 161px 129px 28px;
+  }
+
+}
+@media (max-width: 576px) {
+  .container {
+    max-width:540px;
+  }
+  .breatcome-content h1 {
+    margin: 161px 116px 28px;
+  }
+
+  .breatcome-content h1 {
+    margin: 160px 92px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 158px 64px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 158px 52px 28px;
+  }
+  .breatcome-content h1 {
+    margin: 158px 16px 28px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+    width: 267px !important;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform {
+    width: 83% !important;
+  }
+}

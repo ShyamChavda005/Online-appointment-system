@@ -1,0 +1,291 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+.mediket-appoinment{
+    padding: 120px 0 108px;
+}
+
+.main-contact{
+    margin: 0;
+    background: url("../img/bg5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-contact{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.contact-service-box{
+    text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 0 14px;
+}
+.contact-service-box::before{
+    position: absolute;
+  right: 0;
+  top: 92px;
+  content: '';
+  width: 2px;
+  height: 130px;
+  background-color: rgba(255,255,255,0.5019607843137255);
+}
+
+.contact-servicesicon{
+    width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #ffff;
+  display: inline-block;
+  font-size: 25px;
+  color: #0496ff;
+  position: relative;
+}
+
+.contact-servicesicon::after{
+    content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+  margin: auto;
+  right: 0;
+  border: 2px solid #ffff;
+  text-align: center;
+}
+.contact-address{
+    text-align: center;
+}
+
+.contact-address h2{
+    text-align: center;
+    margin: 30px 0 12px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Unbounded";
+  font-style: normal;
+  line-height: 1.2; 
+}
+
+.contact-address span{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  max-width: 25px;
+}
+
+ */
+
+ /* Default styles for larger screens */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Exo", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.mediket-appoinment {
+  padding: 120px 0 108px;
+}
+
+.main-contact {
+  margin: 0;
+  background: url("../img/bg5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-contact {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.contact-service-box {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 60px 0 14px;
+}
+
+.contact-service-box::before {
+  position: absolute;
+  right: 0;
+  top: 92px;
+  content: '';
+  width: 2px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-servicesicon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #ffff;
+  display: inline-block;
+  font-size: 25px;
+  color: #0496ff;
+  position: relative;
+}
+
+.contact-servicesicon::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+  margin: auto;
+  right: 0;
+  border: 2px solid #ffff;
+  text-align: center;
+}
+
+.contact-address {
+  text-align: center;
+}
+
+.contact-address h2 {
+  text-align: center;
+  margin: 30px 0 12px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Unbounded";
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.contact-address span {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  max-width: 25px;
+}
+
+/* Media Queries */
+
+/* For Tablets */
+@media screen and (max-width: 1024px) {
+  .inner-contact {
+    /* width: 50%; */
+    width: 33.33%;
+  }
+  .contact-service-box {
+    padding: 50px 0 14px;
+  }
+  .contact-servicesicon {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+  .contact-address h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Mobile Phones (Small Devices) */
+@media screen and (max-width: 768px) {
+  .main-contact {
+    flex-direction: column;
+  }
+  .inner-contact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-service-box {
+    padding: 40px 0 14px;
+  }
+  .contact-servicesicon {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+  .contact-address h2 {
+    font-size: 18px;
+  }
+  .contact-servicesicon::after {
+    top: -20px;
+    left: -19px;
+  }
+  .mediket-appoinment {
+    /* padding: 123px 0px 78px; */
+    margin: 0 75px;
+  }
+  .contact-servicesicon::after {
+    top: -25px;
+    left: -26px;
+  }
+}
+
+/* For Very Small Devices (Extra Small Phones) */
+@media screen and (max-width: 576px) {
+  .contact-service-box {
+    padding: 30px 0 14px;
+  }
+  .contact-servicesicon {
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .contact-address h2 {
+    font-size: 16px;
+  }
+  .mediket-appoinment {
+    /* padding: 123px 0px 78px; */
+    margin: 0 17px;
+  }
+}

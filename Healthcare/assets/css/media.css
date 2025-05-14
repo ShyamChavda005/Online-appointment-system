@@ -1,0 +1,3787 @@
+@media (max-width:1400px){
+    .container{
+       max-width: 1320px;
+   }
+
+    .lefthero-box .hereo-thems {
+      margin: 23px 3px;
+      right: -29px;
+      bottom: -224px;
+  }
+  /* .lefthero-box .hereo-thems img {
+    width: 95%;
+    height: 96%;
+  } */
+     
+        .lefthero-box .hereo-thems img {
+          width: 93%;
+          height: 100%;
+        }
+     .lefthero-box .hereo-thems .hero-sheap {
+       margin: 1px -72px;
+     }
+
+     .hereo-selection .container .main-hereo .left-selection .hero-content h1 span {
+       transform: rotate(-3deg);
+     }
+  
+     .lefthero-box .hereo-thems .hero-shapes {
+      left: 50%;
+      right: 0%;
+      top: -2%;
+      width: 25%;
+      height: 25%;
+    }
+
+   .heore-btoon-selection .medik-hero {
+       margin: 0px;
+     }
+
+     .hereo-selection .container .main-hereo .left-selection .hero-content p {
+       margin: -4px 14px 21px;
+       line-height: 31px;
+     } 
+     
+     .leftbtoon-box {
+       margin: 0 -13px;
+     }
+
+     /* .heore-btoon-selection::before {
+       right: 47%;
+       top: 1px;
+     } */
+     /* .feature-btn3 {
+      margin-top: 50px;
+    } */
+     .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+       display: block;
+       padding: 0 0 3px;
+       font-size: 16px;
+       line-height: 28px;
+       max-width: 260px;
+     }
+     .about-selection .about-items .about-img img {
+       margin-left: 39px;
+       margin-bottom: -41px;
+     }
+
+     .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about-doctor::before {
+       left: -4px;
+     }
+     .service-boxlist {
+       right: -105px;
+     }
+     .innerchooseus {
+       right: -106px;
+     }
+     /* .whychooseus .container .mainchooseus .leftchooseus .chooseuslist::before {
+       left: 127px;
+     } */
+     .main-nemu_nav {
+      margin: 0 0px;
+    }
+     /* .chooseuslist {
+       right: -44px;
+     } */
+     .chooseright-slide {
+       right: -56px;
+     }
+     .owl-stage-outer {
+      right: -149px;
+      top: -6px;
+     }
+     .mediket-btn {
+      margin: 0 15px;
+    }
+     .subsccribe-desc {
+       padding: 0 16px;
+     }
+     .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection {
+       flex: 0 0 auto;
+       width: 60%;
+     }
+     .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection {
+       flex: 0 0 auto;
+       width: 40%;
+     }
+     
+     .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+       margin: 88px 5px;
+     }
+     .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+       right: 19%;
+       bottom: -6px;
+     }
+     .swipperslider {
+       right: -53px;
+     }
+     .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle {
+       margin-bottom: 40px;
+       padding: 0 68px;
+     }
+
+     .blogtilteinfo {
+       padding: 0 34px;
+     }
+     .mediket-btn7 {
+       margin: 0;
+       right: -146px;
+     }
+     .navbar-toggler {
+       margin: 0 -61px !important;
+     }
+     .offcanvas-header {
+       margin: 0 46px !important;
+     }
+     .rightservice-items {
+       margin: -7px -52px;
+     }
+     .innerchooseus {
+      margin: 4px 70px;
+      right: -57px;
+    }
+     .counter-single-box {
+       margin: -12px 7px;
+     }
+     /* .lefthero-box .hereo-thems {
+       margin: 12px -6px;
+     } */
+     /* .about-selection .about-items .about-img img {
+       margin-left: 4px !important;
+     } */
+     .hero-shapes.bounce-animate {
+       margin: 0 -85px;
+     }
+     /* .lefthero-box .hereo-thems {
+      
+       bottom: -146px;
+       width: 113%;
+       height: 76%;
+     } */
+     .about-selection .about-items .about-img img {
+       margin-left: -18px;
+       margin-bottom: -54px;
+     }
+     /* .lefthero-box .hereo-thems {
+       margin: 7px -106px;
+       width: 95%;
+       right: -146px;
+       bottom: -182px;
+     }  */
+     /* .menu-inner {
+       margin: -47px 154px;
+     } */
+     .rightservice-provide .chooseright-slide .counter-single-box {
+       top: 78%;
+     }
+     /* .feature-btn3 {
+      margin-top: 50px;
+    } */
+     .footer-thumb1 {
+       right: 31px;
+     }
+     .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+       margin: 0 92px;
+       width: 103%;
+     }
+
+     .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+       padding-left: 584px;
+     }
+
+     .about-selection .about-items .about-img img {
+       margin-left: -24px;
+       margin-bottom: -56px;
+     }
+
+     /* .mediket-btn {
+       margin: 0 10px;
+     } */
+
+     .about-selection .about-items .about-img img {
+      margin-left: 11px;
+       margin-bottom: -92px;
+       width: 95%;
+     }
+
+     .swipperslider {
+       right: -22px;
+     }
+     .header-button {
+       margin: 0 144px;
+     }
+     .rightservice-items {
+       margin: -9px -72px;
+     }
+     /* .case_study_sextion {
+       padding: 114px 1px 115px 9px;
+     } */
+     .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+       left: 35vw;
+     }
+
+     .main-nemu_nav {
+       margin: 0 73px;
+     }
+     .menu-inner {
+       margin: -43px auto;
+     }
+     .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 {
+       gap: 2px;
+     }
+     #left-slider {
+      left: -163px;
+    }
+     .loge_img img {
+       margin: 0 -56px;
+       width: 148px;
+     }
+     /* .feature-btn3 {
+      margin-top: 26px;
+    } */
+    /* .feature-btn3 {
+      margin-top: 29px;
+    } */
+    /* .feature-btn3 {
+      margin-top: 29px;
+    } */
+    /* .feature-btn3 {
+      margin-top: 31px;
+    }
+    .feature-btn3 {
+      margin-top: 32px;
+    }
+    .feature-btn3 {
+      margin-top: 35px;
+    }
+    .lefthero-box .hereo-thems {
+      margin: 23px 3px;
+      right: -14px;
+      bottom: -211px;
+    }
+    
+    .lefthero-box .hereo-thems {
+      margin: 23px 3px;
+      right: -14px;
+      bottom: -237px;
+    }
+    .lefthero-box .hereo-thems {
+      bottom: -211px;
+    }
+    .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+      left: 40vw;
+    } */
+    .lefthero-box .hereo-thems {
+      margin: 20px -3px;
+      right: -10px;
+      bottom: -219px;
+    }
+    .lefthero-box .hereo-thems {
+      bottom: -186px;
+    }
+    /* .lefthero-box .hereo-thems {
+      bottom: -243px;
+    } */
+    .header-button1 {
+      margin: 0 32px;
+    }
+    #btnapp {
+      margin: 0 18px;
+    }
+    .mediket-btn {
+      margin: 0 0px;
+    }
+    .main-nemu_nav {
+      margin: 0 58px;
+    }
+}
+
+/* ************************************************************************ */
+@media (max-width:1200px){
+ .container{
+   max-width: 1140px;
+ }
+ .toper-textright {
+   margin: 0 -69px;
+ }
+ .main-nemu_nav {
+   margin: 0 0px;
+ }
+ .main-nemu_nav {
+   margin: 0 60px;
+ }
+ .toper-textleft {
+   margin: 0 -52px;
+ }
+ .loge_img img {
+   margin: 0 -4px;
+   width: 134px;
+ }
+ .offcanvas-header {
+   margin: 0 -1px !important;
+ }
+ .main-btoon-box {
+  margin: -25px -11px;
+ }
+
+ .heore-btoon-selection::before {
+   right: 47%;
+   top: -15px;
+ }
+ .main-nemu_nav {
+   margin: 0px 44px;
+ }
+
+ .loge_img img {
+   width: 115px;
+ }
+
+ .lefthero-box .hereo-thems {
+   margin: 7px -106px;
+   width: 100%;
+   right: -166px;
+   bottom: -203px;
+ }
+ .about-selection .about-items .about-img img {
+   width: 127%;
+ }
+ /* .lefthero-box .hereo-thems img {
+   width: 112%;
+   height: 131%;
+ } */
+ .lefthero-box .hereo-thems img {
+   width: 118%;
+ }
+ .lefthero-box .hereo-thems .hero-shapes {
+   left: 78%;
+   right: 1%;
+   top: -5%;
+   width: 33%;
+   height: 30%;
+ }
+ .feature-btn3 {
+   margin-top: 29px;
+ }
+ .feature-shape {
+   position: absolute;
+   bottom: -39px;
+   right: -56px;
+ }
+ /* .menu-inner {
+   margin: -46px -17px;
+ } */
+ /* .menu-inner {
+   margin: -42px 30px;
+ } */
+ .about-selection .about-items .about-img img {
+   margin-left: 37px;
+   margin-bottom: -47px;
+   width: 129%;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h2 {
+   font-size: 29px;
+   line-height: 43px;
+   color: #041c33;
+   font-weight: 700;
+ }
+ .about-shape {
+   /* right: 16px; */
+   margin: 0 -41px;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+   font-style: normal;
+   font-weight: 400;
+   margin: 0px -30px;
+ }
+
+ .innerchooseus {
+   /* margin: 2px 20px; */
+   right: -105px;
+ }
+ .chooseuslist {
+   margin: 0 -82px;   
+    }
+
+    .counter-single-box {
+     height: 233px;
+     margin: 23px 20px;
+   }
+   .team-section .container .botoon-doctor .doctor-part .team-single-box {
+     padding: 41px 14px 54px;
+   }
+   .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb img {
+     width: 81%;
+     height: 51%;
+   }
+   .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+     top: -12px;
+     left: 4px;
+     width: 248px;
+     height: 234px;
+   }
+   .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .social-icon ul li {
+     padding-right: 5px;
+   }
+   .team-section .container .botoon-doctor {
+     display: flex;
+     flex-wrap: nowrap;
+   }
+   .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box {
+     padding: 55px 35px 69px;
+     background: #1e3348;
+     border-radius: 20px;
+     margin: -73px -59px;
+   }
+   .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+     margin: 88px -57px;
+     width: 100%;
+     height: 100%;
+   }
+   .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+     font-size: 40px;
+     line-height: 43px;
+   }
+   .swipperslider {
+     right: -62px;
+   }
+   .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+     right: 21%;
+     bottom: -61px;
+   }
+   .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .countr-inco img {
+     margin: 15px 15px;
+   }
+   /* .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+     padding: 18px 23px 15px;
+   } */
+   .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+     font-size: 20px;
+   }
+   .brand-section .container .brand-nameinfo .main-brandinfo {
+     flex: 0 0 auto;
+     width: 88%;
+   }
+   .brand-section .container .brand-nameinfo .main-brandinfo .swiper .swiper-wrapper .swiper-slide {
+     margin-right: 24px;
+   }
+   .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+     padding-left: 526px;
+   }
+   .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+     left: 34vw;
+     top: 4vw;
+   }
+   .loge_img {
+     margin: 0 -34px;
+   }
+   /* .menu-inner {
+     margin: -48px 123px;
+   } */
+   .feature-btn2 a {
+     padding: 7px 20px;
+   }
+   .feature-btn3 a {
+     padding: 7px 20px;
+   }
+   .about-selection .about-items .about-img img {
+     margin-left: 25px;
+     margin-bottom: -46px;
+     width: 129%;
+   }
+   .about-selection .about-items .about-img img {
+     width: 126%;
+   }
+   /* .lefthero-box .hereo-thems img {
+     width: 106%;
+     height: 131%;
+     bottom: 44px;
+   } */
+   .about-selection .about-items .about-img {
+     margin: 0 -6px;
+   }
+   .btn.btn-two {
+     margin: 0 -21px;
+   }
+   .subscribe-title {
+     margin: 0 -42px;
+     max-width: 502px;
+   }
+   .counter-single-box2 {
+     margin: 0 -37px;
+   }
+   .toper-textright {
+     margin: 0px -32px;
+   }
+   .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subsccribe-desc p {
+    font-size: 14px;
+   }
+   .box-2 {
+     margin: 0 39px;
+   }
+   .menu-inner {
+     margin: -43px 261px;
+   }
+   /* .lefthero-box .hereo-thems img {
+     width: 102%;
+   } */
+   .lefthero-box .hereo-thems {
+     bottom: -227px;
+   }
+   .about-selection .about-items .about-img img {
+     width: 115%;
+   }
+   .innerchooseus {
+     right: -92px;
+   }
+   .header-button {
+    margin: 0px 163px;
+   }
+   .navbar-toggler-icon {
+     margin: 0px 31px;
+   }
+   /* .lefthero-box .hereo-thems img {
+     width: 99%;
+   } */
+   .lefthero-box .hereo-thems {
+    bottom: -207px;
+   }
+   .innerchooseus {
+     width: 81%;
+   }
+   .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about-doctor::before {
+     left: -32px;
+   }
+   .about-selection .about-items .about-img {
+     margin: 0px -16px;
+   }
+   .subscribe-doctor .container .main-subscribe .leftsubscribe {
+     flex: 0 0 auto;
+     width: 56.333%;
+   }
+   .right-Testimonals {
+     margin: 0 -38px;
+   }
+   .subscribe-doctor .container .main-subscribe .leftsubscribe {
+     flex: 0 0 auto;
+     width: 53.333%;
+   }
+   .about-selection .about-items .about-img img {
+     width: 113%;
+   }
+   /* .lefthero-box .hereo-thems img {
+     width: 95%;
+   } */
+   .about-selection .about-items .about-img img {
+     width: 110%;
+   }
+   .lefthero-box .hereo-thems {
+    bottom: -249px;
+    right: -119px;
+   }
+   .menu-inner li a{
+     font-size: 12px;
+   }
+   .lefthero-box .hereo-thems .hero-shapes {
+     left: 58%;
+   }
+   .whychooseus .container .mainchooseus .rightchooseus {
+     width: 31.333%;
+   }    
+   .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 a {
+     margin: 0 -7px;
+   }
+   /* .header-button a {
+     padding: 4px 44px;
+   } */
+   .about-selection .about-items .about-img img {
+     width: 135%;
+   }
+   .about-selection .about-items .about-img {
+     bottom: 3px;
+   }
+   .whychooseus .container .mainchooseus .rightchooseus {
+     width: 33.1%;
+   }
+   .rightservice-provide {
+     width: 45%;
+   }
+   .mediket-btn7 {
+     margin: 0 -48px;
+   }
+
+   .menu-inner {
+     margin: -43px auto;
+   }
+   .menu-inner {
+     margin: -46px -16px;
+   }
+   .loge_img img {
+     width: 107px;
+     border: 1px;
+     margin: 8px -19px;
+   }
+   .about-selection .about-items .about-img img {
+     width: 126%;
+   }
+   .lefthero-box .hereo-thems img {
+     width: 115%;
+   }
+   .main-nemu_nav {
+     margin: 0px 28px;
+   }
+   .menu-inner li a {
+     margin: 0px 13px;
+   }
+   .menu-inner {
+     margin: -46px 36px;
+   }
+   .lefthero-box .hereo-thems img {
+     width: 110%;
+   }
+   .about-selection .about-items .about-img img {
+     width: 121%;
+   }
+   .lefthero-box .hereo-thems img {
+     width: 103%;
+   }
+   .header-button a {
+    padding: 4px 8px;
+    margin: 13px -129px;
+   }
+   /* .menu-inner {
+     margin: -44px 50px;
+   } */
+   .main-nemu_nav {
+     margin: 0px -47px;
+   }
+   /* .main-nemu_nav {
+     margin: 0px -26px;
+   } */
+   .menu-inner {
+     margin: -47px 17px;
+   }
+   /* .main-nemu_nav {
+     margin: 0px 4px;
+   } */
+   .menu-inner li a {
+     margin: 0px 18px;
+   }
+   .loge_img img {
+     width: 104px;
+     border: 1px;
+     margin: 8px -19px;
+   }
+   .lefthero-box .hereo-thems {
+     bottom: -225px;
+   }
+   .about-selection .about-items .about-img img {
+     width: 108%;
+   }
+   .lefthero-box .hereo-thems img {
+     width: 99%;
+   }
+   .about-selection .about-items .about-img img {
+     width: 104%;
+   }
+   .about-shape {
+     margin: 0px -12px;
+   }
+   .whychooseus .container .mainchooseus .rightchooseus {
+     width: 27.1%;
+   }
+   .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+     max-width: 238px;
+   }
+   .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon {
+     width: 66px;
+     height: 65px;
+     left: 10px;
+   }
+   .lefthero-box .hereo-thems {
+     bottom: -206px;
+   }
+   /* .main-nemu_nav {
+     margin: 0px -36px;
+   } */
+   .header-button {
+     margin: 0px 133px;
+   }
+   /* .main-nemu_nav {
+     margin: 0px 24px;
+   } */
+   .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+     left: 42vw;
+     top: 4vw;
+   }
+   .menu-inner {
+     margin: -47px 4px;
+   }
+   .about-selection .about-items .about-img {
+    margin: 0px -30px;
+   }
+   .whychooseus .container .mainchooseus .rightchooseus {
+    width: 22.1%;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item ul {
+    max-width: 419px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+    right: 20%;
+    bottom: -92px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+    margin: 4px 92px;
+    width: 91%;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 37vw;
+    top: 4vw;
+  }
+   .lefthero-box .hereo-thems img {
+    width: 86%;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -259px;
+    right: -119px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+      font-size: 15px;
+      max-width: 393px;
+      margin: 0 -56px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems {
+    gap: 91px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon {
+    left: 78px;
+  }
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: -49px 101px;
+    }
+    .main-nemu_nav {
+      margin: 0px 4px;
+    }
+    .loge_img img {
+      width: 92px;
+    }
+    .main-nemu_nav {
+      margin: 0px -12px;
+    }
+      .loge_img img {
+        width: 88px;
+      }
+      .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 a {
+        margin: 0 -20px;
+      }
+      .feature-btn2 {
+        margin: 30px 4px;
+          margin-top: 30px;
+ }
+ .feature-btn3 a {
+  margin: 8px 0px;
+}
+/* .lefthero-box .hereo-thems {
+  bottom: -259px;
+    right: -134px;
+} */
+.case_study_sextion {
+  background: #041c33;
+  padding: 135px 0 86px 40px;
+}
+.heore-btoon-selection .medik-hero {
+  margin: 0px;
+  width: 65px;
+} 
+ .heore-btoon-selection .medik-hero img {
+  margin: 0px;
+  width: 65px;
+}
+
+.lefthero-box .hereo-thems {
+  bottom: -242px;
+  right: -119px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -266px;
+}
+/* .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 37vw;
+  top: 1vw;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 42vw;
+  top: 2vw;
+} */
+/* .feature-btn3 {
+  margin-top: 51px;
+} */
+.team-section .container .botoon-doctor {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lefthero-box .hereo-thems {
+  bottom: -243px;
+}
+.header-button a {
+  font-size: 13px;
+}
+.header-button2 a {
+  font-size: 12px;
+}
+#btnapp {
+  margin: 2px -1px;
+}
+.header-button1 a {
+  font-size: 12px;
+}
+.header-button1 {
+  margin: 3px 29px;
+}
+.main-nemu_nav {
+  margin: 0px -20px;
+}
+.menu-inner li a {
+  font-size: 10px;
+}
+  .menu-inner {
+    margin: -44px 20px;
+  }
+  #btnapp {
+    margin: 2px 8px;
+  }
+  .main-nemu_nav {
+    margin: -9px 23px;
+  }
+
+  .loge_img img {
+    margin: 0 -2px;
+  }
+
+  
+}
+/* 
+*********************************************************************** */
+ @media (max-width:992px){
+   .container{
+     max-width: 960px;
+   }
+   /* .main-rowtoper {
+     margin: 0 -95px;
+   }
+   .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+     font-size: 13px;
+     text-align: center;
+   }
+   .loge_img {
+     margin: 1px -70px;
+   }
+   .hereo-selection .container .main-hereo .left-selection {
+     width: 65%;
+   }
+   .hero-content {
+     margin: 10px -38px;
+   }
+   .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    line-height: 31px;
+    max-width: 415px;
+    margin: 11px 56px;
+ }
+ .leftbtoon-box h3 {
+  font-size: 14px;
+  margin: 0 31px;
+ }
+ .main-btoon-box {
+   margin: -34px -71px;
+ } */
+ .heore-btoon-selection::before {
+    /* right: 5%; */
+    top: -15px;
+ }
+ .hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+   padding: 9px 31px;
+   margin: 0 45px;
+ }
+ .lefthero-box .hereo-thems {
+  bottom: -334px;
+  right: -120px;  
+ }
+ .lefthero-box .hereo-thems img {
+  width: 90%;
+ }
+ .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+   font-size: 16px;
+ }
+ .feature-content .feature-btn2 {
+  margin-top: 13px;
+  font-size: 17px;
+}
+ .botton-tilte {
+   margin: 0 -31px;
+ }
+ .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte p {
+   font-weight: 400;
+   font-size: 12px;
+ }
+ .loge_img img {
+  width: 82px;
+  border: 1px;
+  margin: 11px -23px;
+ }
+ .main-nemu_nav {
+  margin: 0px -18px;
+}
+.menu-inner {
+  margin: -47px 5px;
+}
+ .lefthero-box .hereo-thems .hero-shapes {
+  left: 59%;
+ }
+ .lefthero-box .hereo-thems .hero-sheap {
+   margin: 0px -50px;
+   width: 87px;
+ }
+ .head-icon {
+   width: 26px;
+   margin: 4px 9px;
+ }
+ .feature-content span.experts {
+   font-size: 17.8px;
+ }
+ .feature-content h4 {
+   font-size: 21px;
+ }
+ .feature-shape.bounce-animate {
+   width: 212px;
+   height: 178px;
+ }
+ .feature-content p {
+   font-size: 15px;
+ }
+ .call-info_text h5 {
+   font-size: 11px;
+ }
+ .call-info_text span {
+   font-size: 12.8px;
+   padding-left: 0px;
+ }
+ .call-info_text span::before {
+   top: 5px;
+   margin: 0 -9px;
+ }
+ .call-info_text span {
+   top: -19px;
+ }
+ .feature-btn3 {
+   margin-top: 23px;
+ }
+ .call-info_text h5 {
+   margin: -19px 0 0;
+ }
+ .fa-solid.fa-phone {
+   margin: -7px -6px;
+ }
+ .head-tilte {
+   margin: 3px -5px;
+ }
+ .about-shape {
+  margin: 0px -13px;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h2 {
+   font-size: 26px;
+ }
+ .about-selection .about-items .about-img img {
+  width: 98%;
+  margin: 0px 23px;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute {
+   max-width: 302px;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+   height: 113px;
+ }
+ .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+   max-width: 281px;
+ }
+ .whychooseus .container .mainchooseus .rightchooseus {
+  width: 26.1%;
+  margin: 0 -54px;
+ }
+ .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+   max-width: 184px;
+ }
+ 
+ .case_study_sextion {
+   padding: 114px 1px 38px 9px;
+ }
+
+ .case_study_content h3 a {
+   font-size: 17px;
+ }
+ .rightservice-provide .chooseright-slide .Providetitle h2 {
+  font-size: 27px;
+ }
+ .rightservice-provide .chooseright-slide .case_list_item ul {
+   max-width: 403px;
+   margin: 0 -55px;
+ }
+ .case_study_sextion .container .main-service .leftservice-provide .slider-services {
+   margin: 15px 15px;
+   margin-top: 77px;
+   margin-right: 53px;
+   margin-left: -166px;
+ }
+ .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+   font-size: 28px;
+ }
+ .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+  top: -21px;
+  left: 7px;
+  width: 237px;
+  height: 255px;
+ }
+ .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+  font-size: 21px;
+    max-width: 249px;
+    margin: 0 71px;
+ }
+ .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+   margin: 89px -109px;
+   width: 115%;
+   height: 114%;
+ }
+ .testimonial-section {
+   padding: 64px 0 10px;
+ }
+ .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+  width: 222px;
+  height: 280px;
+  margin: -34px 130px;
+ }
+ .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .counttitle h2 {
+   font-size: 24px;
+ }
+ .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+   font-size: 28px;
+   line-height: 43px;
+   max-width: 265px;
+ }
+ .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+   right: 60%;
+   bottom: -113px;
+ }
+ .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+  margin: 0 276px;
+    width: 88%;
+ }
+ .testimonial-section .container .main-testimonial .right-Testimonals .swipperslider .user-info .user-name h4 {
+   margin: 0 -19px;
+ }
+ .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+   max-width: 106%;
+ }
+ .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 a {
+   padding: 3px 9px;
+ }
+ .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+   font-size: 21px;
+   max-width: 62px;
+ }
+ .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+  margin: 9px 36px;
+  font-size: 31px;
+ }
+ .hereo-selection .container .main-hereo .left-selection .hero-content h4 {
+  font-size: 16px;
+  margin: 0 84px;
+}
+.heore-btoon-selection .medik-hero img {
+  margin: 0 15px;
+}
+.heore-btoon-selection .medik-hero {
+  margin: 0px -13px;
+    width: 73px;
+}
+.main-nemu_nav {
+  margin: 0px 3px;
+}
+.toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+  font-size: 14px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 45vw;
+  top: 4vw;
+}
+.menu-inner li a {
+  margin: 0px 9px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -306px;
+  right: -120px;
+}
+.leftbtoon-box {
+  margin: 0 -31px;
+}
+.heore-btoon-selection .mdik-contect #num {
+  margin: -2px 15px;
+  font-size: 16px;
+}
+.main-nemu_nav {
+  margin: 0px -15px;
+}
+.header-button a {
+  padding: 1px 3px;
+  margin: 10px -129px;
+}
+.header-button1 {
+  margin: -6px -40px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -49px 113px;
+}
+.mediket-btn {
+  margin: 0 7px;
+}
+.lefthero-box .hereo-thems {
+    bottom: -283px;
+    right: -120px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 98%;
+    margin: 0px 36px;
+  }
+  .feature-content .feature-btn2 {
+    margin-top: 41px;
+    font-size: 17px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    margin: 0;
+    font-size: 13px;
+  }
+  .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+    font-size: 12px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .about-shape img {
+    margin-top: 40px;
+    width: 96%;
+    height: 60%;
+  }
+  .about-shape {
+    margin: -1px 21px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 98%;
+    margin: -4px 28px;
+  }
+  .main-nemu_nav {
+    margin: 0px -37px;
+  }
+  .menu-inner li a {
+    margin: 0px 5px;
+    font-size: 10px;
+}
+.menu-inner {
+  margin: -47px 49px;
+}
+.mediket-btn {
+  margin: 0 -12px;
+}
+.subsccribe-desc {
+  padding: 0 11px;
+  margin: 0 11px;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe {
+  margin: 0 -51px;
+}
+.mediket-btn {
+  margin: 0 7px;
+}
+.about-selection .about-items .about-img img {
+  width: 93%;
+  margin: -4px 32px;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+  font-size: 13px;
+  max-width: 224px;
+  font-weight: 600;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+  top: -34px;
+  left: 0px;
+  width: 225px;
+  height: 248px;
+}
+.latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+  padding: 11px 25px;
+}
+.toper_area .main-rowtoper .innertop-row .toper-textleft p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+  font-size: 11px;
+  font-weight: 600;
+}
+.main-nemu_nav {
+  margin: 0px -48px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -296px;
+  right: -116px;
+}
+.leftbtoon-box {
+  margin: 0 -50px;
+  max-width: 113px;
+  align-content: center;
+  text-align: center;
+}
+.hereo-selection .container .main-hereo .left-selection .hero-content p {
+  margin: -4px 14px 21px;
+  line-height: 29px;
+  font-size: 17px;
+}
+.heore-btoon-selection .mdik-contect #num {
+  margin: -2px 15px;
+  font-size: 13px;
+}
+.feature-content .feature-btn2 {
+  margin-top: 11px;
+}
+.feature-btn3 {
+  margin-top: 2px;
+}
+.footer-title {
+  margin: 0 -81px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14901960784313725);
+  margin: 15px 3px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 52vw;
+  top: 4vw;
+}
+.main-nemu_nav {
+  margin: 0px -70px;
+}
+.loge_img img {
+  width: 73px;
+  border: 1px;
+  margin: 14px -23px;
+}
+.latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+  padding: 11px 15px;
+}
+/* .about-selection .about-items .about-img img {
+  width: 91%;
+  margin: -2px 59px;
+} */
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+  max-width: 244px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+  top: -31px;
+  left: -2px;
+  width: 212px;
+  height: 216px;
+}
+.appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+  margin: 89px -49px;
+  width: 96%;
+  height: 109%;
+}
+.testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+  width: 216px;
+  height: 280px;
+  margin: -97px 117px;
+}
+.testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+  right: 71%;
+  bottom: -294px;
+}
+.testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+  width: inherit;
+  position: absolute;
+  top: -8%;
+  left: 30%;
+  animation: wooo 3.5s infinite;
+}
+.whychooseus .container .mainchooseus .rightchooseus {
+  width: 26.1%;
+  margin: 0 -72px;
+}
+.subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+  font-size: 14px;
+  max-width: 264px;
+  margin: 0 64px;
+  font-weight: 800;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe {
+  margin: 0 -71px;
+}
+.header-button1 a {
+  padding: 4px 4px;
+  font-size: 11px;
+}
+.navbar-toggler {
+  margin: 0 -86px !important;
+}
+.menu-inner {
+  margin: -47px 64px;
+}
+.main-nemu_nav {
+  margin: 0px -48px;
+}
+.main-nemu_nav {
+  margin: 0px -63px;
+}
+.loge_img img {
+  width: 56px;
+  border: 1px;
+  margin: 13px -23px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -278px;
+  right: -116px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -278px;
+  right: -116px;
+}
+.leftbtoon-box {
+  margin: 0 -24px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -296px;
+  right: -116px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -336px;
+}
+.heore-btoon-selection::before {
+  right: 54%;
+  top: -16px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -302px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -280px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -293px;
+}
+.heore-btoon-selection::before {
+  right: 47%;
+}
+/* .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 42vw;
+  top: 4vw;
+}
+
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+  font-size: 24px;
+  margin: -12px 5px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 43vw;
+  top: 2vw;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+  font-size: 20px;
+  margin: -12px -12px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 51vw;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+  font-size: 20.2px;
+  max-width: 0px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 51vw;
+  top: 4vw;
+} 
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+  padding-left: 680px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 76vw;
+  top: 4vw;
+} */
+.menu-inner {
+  margin: -45px 114px;
+  /* gap: 5; */
+}
+.menu-inner li a {
+  font-size: 13px;
+}
+.loge_img img {
+  width: 95px;
+  border: 1px;
+  margin: 9px -23px;
+}
+.header-button1 {
+  margin: 1px 65px;
+}
+#btnapp {
+  margin: 2px -30px;
+}
+.header-button {
+  margin: 4px 160px;
+}
+  .menu-inner {
+  gap: 3px;
+}
+.menu-inner {
+  gap: 0px;
+}
+.main-nemu_nav {
+  margin: 0px -62px;
+}
+.menu-inner {
+  margin: -46px 77px;
+}
+.header-button {
+  margin: 4px 133px;
+}
+#btnapp {
+  margin: 2px -18px;
+}
+.header-button1 {
+  margin: 3px 37px;
+}
+.menu-inner li a {
+  font-size: 12px;
+}
+.loge_img img {
+  width: 80px;
+}
+.menu-inner {
+  margin: -46px 60px;
+}
+.menu-inner {
+  margin: -46px 21px;
+}
+#btnapp {
+  margin: 2px -15px;
+}
+.header-button {
+  margin: 4px 133px;
+}
+.menu-inner li a {
+  font-size: 10px;
+}
+.main-nemu_nav {
+  margin: 4px -23px;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe {
+  margin: 0 -82px;
+}
+.menu-inner {
+  margin: -56px 65px;
+}
+.menu-inner li a {
+  font-size: 12px;
+} 
+.loge_img img {
+  margin: 0px -19px;
+}
+ }
+
+ /* *********************************************************************** */
+ @media (max-width:768px){
+  .container{
+    max-width: 720px;
+  }
+  /* .main-nemu_nav {
+    margin: 0px -70px;
+  } */
+  .main-nemu_nav {
+    margin: -28px 473px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -298px;
+    right: -110px;
+  }
+  .lefthero-box .hereo-thems img {
+    width: 102%;
+  }
+  .heore-btoon-selection .medik-hero {
+    margin: -10px -9px;
+    width: 73px;
+  }
+  .heore-btoon-selection .medik-hero img {
+    margin: -3px 15px;
+    width: 54px;
+  }
+  .heore-btoon-selection .mdik-contect {
+    margin-top: -21px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -10px -1px 20px;
+    line-height: 29px;
+    font-size: 17px;
+  }
+  .heore-btoon-selection .mdik-contect #num {
+    margin: -1px 10px;
+    font-size: 13px;
+  }
+  .leftbtoon-box {
+    margin: 0 -45px;
+    max-width: 113px;
+    align-content: center;
+    text-align: center;
+  }
+  .heore-btoon-selection::before {
+    right: 43%;
+    top: -15px;
+  }
+  .loge_img img {
+    width: 91px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+    padding: 10px 19px;
+    margin: 0 4px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content h4 {
+    font-size: 16px;
+    margin: 0 36px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+    margin: 9px 36px;
+    font-size: 31px;
+  }
+  .feature-btn2 a {
+    padding: 6px 16px;
+  }
+  .feature-content .feature-btn2 {
+    margin-top: 15px;
+  }
+  .about-selection {
+    padding: 16px 6px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+    max-width: 222px;
+    margin: 0 -48px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+    height: 164px;
+  }
+  .about-selection .about-items .about-img img {
+  width: 100%;
+    /* margin: 0px 53px; */
+    /* margin: 4px 63px; */
+  }
+  .about-selection .about-items .about-img {
+    margin: 0px -49px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+    font-size: 17px;
+  }
+  .mediket-btn5 {
+    margin: 0 -15px;
+  }  
+  .rightservice-provide .chooseright-slide .Providetitle h4 {
+    color: #0391f8;
+    padding: 0 0 24px 28px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    font-size: 13px;
+    max-width: 536px;
+    margin: 0 -56px;
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+    margin-top: 60px;
+    margin: 0 -42px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -23px;
+    left: 0px;
+    width: 186px;
+    height: 197px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+    margin: 0 223px;
+    width: 88%;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+    width: 216px;
+    height: 280px;
+    margin: -66px 108px;
+  }
+  .footer-title {
+    margin: 0 -160px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 56vw;
+    top: 4vw;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+    font-size: 11px;
+    max-width: 366px;
+    font-weight: 700;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+    font-size: 12px;
+    max-width: 224px;
+    margin: 0 64px;
+    font-weight: 800;
+  }
+    .subscribe-doctor .container .main-subscribe .right-subscribe {
+      margin: 0 -92px;
+  }
+  .menu-inner {
+    margin: -48px 20px;
+    /* display: flex; */
+  }
+  /* .main-nemu_nav {
+    margin: 4px -41px;
+  } */
+  .menu-inner li a {
+    margin: 0px 8px;
+    font-size: 9px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+    font-size: 9px;
+    font-weight: 609;
+  }
+  /* .main-nemu_nav {
+    margin: 4px -81px;
+  } */
+  /* .menu-inner {
+    margin: -48px -3px;
+  }
+  .menu-inner {
+    margin: -48px 8px;
+  }
+  .navbar_big{
+    display: none;
+    z-index: 999px;
+  } */
+  .offcanvas-header {
+    margin: -7px -8px !important;
+  }
+  .tako li a {
+    padding: 17px 36px;
+  }
+  .header-button1 a {
+    padding: 4px 62px;
+    font-size: 14px;
+    margin: 12px 47px;
+  }
+  .main-nemu_nav {
+    margin: -28px 433px;
+  }
+  .feature-serction .container .main-feature .one-featureselection {
+    padding: 10px;
+  }  
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute p {
+    padding-left: 25px;
+    max-width: 25px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+    height: 164px;
+    margin: 0 -14px;
+  }
+  .box-2 {
+    margin: 0px 32px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    padding: 12px 15px;
+    margin: 0 -75px;
+  }
+  .main-nemu_nav {
+    margin: -30px 408px;
+  }
+  .team-section .container .botoon-doctor .doctor-part {
+    margin: 8px;
+  }
+  .main-nemu_nav {
+    margin: -33px 387px;
+  } 
+  .feature-serction .container .main-feature .one-featureselection {
+    padding: 3px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 93%;
+    margin: 0px 53px;
+    /* margin: 4px 63px; */
+  }
+  .innerchooseus {
+    width: 72%;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+    font-size: 13px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+    font-size: 14px;
+    margin: 14px -9px 187px;
+  }  
+  .chooseusicon-inner {
+    margin: 0 -11px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 a {
+    margin: -2px -31px;
+  }
+  .mediket-btn5 {
+    margin: 0 -27px;
+    margin-top: 0px;
+  }
+  .footer-title {
+    margin: 0 -200px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 89%;
+    margin: 0px 45px;
+    /* margin: 4px 63px; */
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+    margin-top: 60px;
+    margin: 0 -78px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .counter_icon2 img {
+    width: 33px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subscribe-count h3 {
+    font-size: 29px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subsccribe-desc p {
+    font-size: 11px;
+    margin: 3px -7px;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+    max-width: 168px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    padding: 8px 7px;
+    margin: 0 -84px;
+  }
+  .main-nemu_nav {
+    margin: -34px 363px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -18px;
+    left: 0px;
+    width: 164px;
+    height: 177px;
+  }
+  .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+    font-size: 10px;
+    font-weight: 604;
+    max-width: 284px;
+    margin: 15px 4px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    max-width: 287px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -284px;
+    right: -110px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 249px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -10px 29px 21px;
+    line-height: 29px;
+    font-size: 17px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+    padding: 10px 23px;
+    margin: 0 25px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+    margin: 9px 36px;
+    font-size: 24px;
+  }
+  .heore-btoon-selection .mdik-contect {
+    margin-top: -2px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -10px 5px 22px;
+    line-height: 29px;
+    font-size: 14px;
+  }
+  .heore-btoon-selection::before {
+    right: 29%;
+    top: -15px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -343px;
+    right: -118px;
+  }
+  .leftbtoon-box h3 {
+    font-size: 12px;
+    margin: 1px -3px;
+    max-width: 87px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 306px;
+  }
+  .lefthero-box .hereo-thems img {
+    width: 96%;
+  }
+  .feature-btn3 {
+    margin-top: -28px;
+  }
+  .feature-serction .container .main-feature .one-featureselection {
+    padding: 9px;
+  }
+  .botton-tilte {
+    margin: 20px -31px;
+  }
+  .feature-btn2 a {
+    padding: 7px 3px;
+    margin: 0 -15px;
+  }
+  .feature-btn3 a {
+    margin: 39px -12px;
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+  .feature-content p {
+    font-size: 12px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+    font-size: 13px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 76%;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+    font-size: 10px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+    margin: 14px -9px 187px;
+  }
+  .innerchooseus {
+    right: -92px;
+    height: 100%;
+  }
+  .mediket-btn5 {
+    bottom: -199px;  
+ }
+ .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+  font-size: 17px;
+}
+.rightservice-provide .chooseright-slide .Providetitle h2 {
+  font-size: 19px;
+}
+.rightservice-provide .chooseright-slide .case_list_item li {
+  font-size: 11px;
+  margin: 0 -89px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+  top: -13px;
+  left: 1px;
+  width: 146px;
+  height: 154px;
+}
+.testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+  width: 194px;
+  /* height: 230px; */
+  margin: -109px 94px;
+  height: 281px;
+}
+.testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+  width: inherit;
+  position: absolute;
+  top: -17%;
+  left: 24%;
+  animation: wooo 3.5s infinite;
+}
+.footer-title {
+  margin: 0 -251px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 71vw;
+  top: 4vw;
+}
+.main-nemu_nav {
+  margin: -34px 311px;
+}
+.footer-button-nav ul li a {
+  font-size: 9px;
+}
+.main-footer .footer-one .about-title {
+  font-size: 19px;
+}
+.main-nemu_nav {
+  margin: -34px 290px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -334px;
+  right: -132px;
+}
+.heore-btoon-selection::before {
+  right: 26%;
+  top: -15px;
+}
+.feature-serction .container .main-feature .one-featureselection {
+  padding: 5px;
+}
+.fa-solid.fa-phone {
+  margin: 0 -17px;
+}
+.feature-btn3 {
+  margin-top: -39px;
+}
+.call-info_text {
+  font-size: 22px;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h2 {
+  font-size: 19px;
+}
+#info-about {
+  font-size: 15px;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+      height: 212px;
+    margin: 0 -14px;
+    font-size: 6px;
+  }
+
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+  font-size: 9px;
+  max-width: 366px;
+  font-weight: 700;
+}
+.about-selection .about-items .about-img img {
+  width: 82%;
+}
+.about-selection .about-items .about-img {
+  margin: 0px -36px;
+  padding: 6px 1px;
+}
+.whychooseus .container .mainchooseus .leftchooseus .chooseustitle h2 {
+  font-size: 30px;
+}
+.whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+  font-size: 14px;
+}
+.innerchooseus {
+  right: -72px;
+  height: 103%;
+}
+.chooseusicon-inner {
+  margin: 0 -19px;
+}
+.subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+  max-width: 148px;
+  font-size: 8px;
+  font-weight: 800;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .counter_icon2 img {
+  width: 32px;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subsccribe-desc p {
+  font-size: 10px;
+  margin: 3px -7px;
+}
+.appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+  width: 77%;
+ }
+ .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+  font-size: 15px;
+}
+.footer-title {
+  margin: 0 -268px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -336px;
+  right: -113px;
+}
+.leftbtoon-box h3 {
+  font-size: 10px;
+  margin: 1px -11px;
+  max-width: 87px;
+}
+.latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+  padding: 8px 7px;
+  margin: 0 -109px;
+}
+.list-content {
+  margin-left: 17px;
+}
+.about-selection .about-items .about-img {
+  margin: 0px -42px;
+  padding: 6px 1px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -314px;
+}
+.heore-btoon-selection::before {
+  right: 42%;
+}
+.feature-content .feature-btn2 {
+  margin-top: 81px;
+}
+.feature-btn3 {
+  margin-top: -11px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -49px 189px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -49px 166px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -49px 117px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -49px 105px;
+}
+/* .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+  padding-left: 555px;
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 73vw
+}
+.footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+  left: 78vw;
+  top: 6vw;
+} */
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+  height: 151px !important;
+}
+
+ }
+ /* **************************************************************************************** */
+ @media (max-width:576px){
+  .container{
+    max-width: 540px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    max-width: 204px;
+  }
+  .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+    font-size: 9px;
+    font-weight: 604;
+    max-width: 473px;
+    margin: 15px 0px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 299px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+    margin: -3px 36px;
+    font-size: 22px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+    margin: 0px 7px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -9px 22px 22px;
+    line-height: 26px;
+    font-size: 13px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -9px 8px 22px;
+    line-height: 26px;
+    font-size: 13px;
+  }
+  .heore-btoon-selection .mdik-contect #num {
+    margin: -1px 5px;
+    font-size: 10px;
+  }
+  .leftbtoon-box h3 {
+    font-size: 9px;
+    margin: 1px -11px;
+    max-width: 87px;
+  }
+  .leftbtoon-box h3 img {
+    margin-right: 2px;
+    transition: 0.5s;
+    vertical-align: middle;
+    width: 18px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -360px;
+    right: -111px;
+  }
+  .feature-btn3 {
+    margin-top: -111px;
+  }
+  .feature-serction .container .main-feature .one-featureselection {
+    padding: 6px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte p {
+    font-weight: 400;
+    font-size: 9px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+    font-size: 9px;
+    margin: 0 -20px;
+  }
+  .head-icon {
+    width: 29px;
+    margin: 4px -28px;
+  }
+  .feature_list_icon {
+    margin: 0 -31px;
+  }
+  .feature-content span.experts {
+    font-size: 14.8px;
+    margin: 24px -13px;
+  }
+  .feature-content h4 {
+    font-size: 14px;
+    margin: 6px -28px;
+  }
+  .feature-btn2 a {
+    padding: 7px 3px;
+    margin: 10px -19px;
+  }
+  .feature-shape.bounce-animate {
+    width: 198px;
+    height: 171px;
+  }
+  .feature-content p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .call-info_info i {
+    width: 41px;
+    height: 45px;
+    font-size: 10px;
+  }
+  .call-info_text h5 {
+    margin: -17px 3px 0;
+    font-size: 9px;
+  }
+  .call-info_text {
+    font-size: 7px;
+  }
+  .feature-btn3 a {
+    margin: 112px -10px;
+    padding: 6px 20px;
+    font-size: 7px;
+  }
+  .feature-content .feature-btn2 {
+    margin-top: 81px;
+  } 
+  /* #inner-karan {
+    margin: 65px 0px;
+  } */
+     .feature-content .feature-btn2 {
+    margin-top: 81px;
+  }
+  .botton-tilte {
+    margin: 50px -31px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h2 {
+    font-size: 14px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .about-shape img {
+    width: 134%;
+    height: 66%;
+    margin: 15px -31px;
+  }
+  .mediket-btn2 {
+    padding: 6px 25px;
+  }
+  .about-selection .about-items .about-img img {
+    width: 89%;
+    margin: 0 41px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about_experience {
+    margin: 26px -26px;
+  }
+  .info-about {
+    font-size: 13px;
+    max-width: 239px;
+    font-weight: 600;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+    max-width: 240px;
+    margin: 0 -61px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about-doctor::before {
+    left: -45px;
+    width: 285px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseustitle h2 {
+    font-size: 20px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseustitle p {
+    font-size: 14px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon img {
+    width: 23px;
+    height: 30px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon {
+    width: 51px;
+    height: 57px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems {
+    gap: 82px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist {
+    flex: 0 0 auto;
+    width: 40%;
+  }  
+  .whychooseus .container .mainchooseus .rightchooseus {
+    width: 33.1%;
+    margin: 0 -116px;
+  }
+  .rightservice-provide .chooseright-slide .Providetitle h2 {
+    font-size: 15px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    font-size: 11px;
+    margin: 0 -120px;
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+    margin: 0 -117px;
+  }
+  .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+    font-size: 20px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -16px;
+    left: -5px;
+    width: 123px;
+    height: 128px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .dtilte {
+    margin: 15px -12px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subscribe-count h3 {
+    font-size: 19px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .counter_icon2 img {
+    width: 27px;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+    font-size: 8px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0 54px;
+    margin: 0 6px;
+  }
+  .check_bx span {
+    font-size: 14px;
+  }
+  .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+    font-size: 17px;
+    line-height: 33px;
+    max-width: 200px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+    margin: 0 161px;
+    width: 93%;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+    width: 194px;
+    margin: -121px 43px;
+    height: 281px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    padding: 5px 7px;
+    margin: 0 -120px;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+    max-width: 106%;
+    font-size: 22px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blogs-category ul {
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 -41px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 a {
+    padding: 0px 8px;
+    margin: 11px -24px;
+  }
+  .brand-section .container .main-boder .inner-info .brand-tilte h2 {
+    font-size: 22px;
+  }  
+  .footer-title {
+    margin: 0 -350px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 84vw;
+    top: 7vw;
+  }
+  .main-footer .footer-one {
+    flex: 0 0 auto;
+    width: 31.33%;
+  }
+  .main-footer .footer-one .about-title {
+    font-size: 17px;
+    margin: 15px 19px;
+  }
+  .list-content {
+    margin-left: -16px;
+  }
+  .subscribe-form input {
+    width: 156%;
+    margin: 28px -52px 30px;
+  }
+  .main-nemu_nav {
+    margin: -44px 239px;
+  }
+  .Providetitle {
+    margin: 0 -63px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    font-size: 12px;
+    margin: 0px -34px;
+    max-width: 192px;
+  }
+  .main-nemu_nav {
+    margin: -44px 215px;
+  }
+  #info-about {
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0 -21px;
+    max-width: 127px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+    height: 171px;
+    margin: 0 0px;
+    font-size: 1px;
+  }
+  .about-selection .about-items .about-img img {
+    margin: 0 40px;
+  }
+  .toper-textright {
+    margin: 0px -9px;
+  }
+  .main-nemu_nav {
+    margin: -44px 183px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 276px;
+  }
+  .botton-tilte {
+    margin: 63px -32px;
+  }
+  .feature-btn3 {
+    margin-top: -101px;
+  }
+  .about-selection .about-items .about-img img {
+    margin: 0 37px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+    font-size: 9px;
+    max-width: 129px;
+    font-weight: 700;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    left: -9px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .dtilte {
+    margin: 15px -14px;
+    font-size: 11px;
+  }
+  .box-2 {
+    margin: 0px 24px;
+  }
+  #left-slider {
+    left: -122px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    padding: 4px 3px;
+    margin: 0 -126px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 a {
+    padding: 0px 3px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .company-loge img {
+    transition: 0.5s;
+    vertical-align: middle;
+    width: 61%;
+    height: 54%;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+    font-size: 15px;
+    max-width: 62px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 92vw;
+    top: 6vw;
+  }
+  /* .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 344px;
+  } */
+  .heore-btoon-selection::before {
+    right: 35%;
+    top: -20px;
+  }
+  .feature-content .feature-btn2 {
+    margin-top: 79px;
+  }
+  .feature-btn3 {
+    margin-top: -79px ;
+  }
+  .mediket-btn {
+    margin: 0 16px;
+  }
+  .btn {
+    line-height: 51px;
+    height: 60px;
+    width: 184px;
+  }
+  .main-nemu_nav {
+    margin: -44px 166px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -9px -1px 22px;
+    line-height: 27px;
+    font-size: 11px;
+  }
+  .heore-btoon-selection .mdik-contect #num {
+    margin: -1px 4px;
+    font-size: 9px;
+  }
+  .heore-btoon-selection .medik-hero img {
+    margin: -3px 13px;
+    width: 50px;
+  }
+  .leftbtoon-box h3 {
+    max-width: 78px;
+  }
+  .heore-btoon-selection::before {
+    right: 28%;
+    top: -20px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+    font-size: 10px;
+    margin: 0 -27px;
+    max-width: 54px;
+  }
+  .feature-content .feature-btn2 {
+    margin-top: 72px;
+  }
+  .feature-btn3 {
+    margin-top: -69px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte ul {
+    margin: 36px -1px;
+  }
+  .feature-btn3 a {
+    margin: 122px -20px;
+    padding: 6px 20px;
+    font-size: 7px;
+  }
+  .feature-btn2 a {
+    padding: 7px 5px;
+    margin: 20px -27px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute {
+    padding-left: 8px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+    height: 148px;
+    margin: 0 -10px;
+    font-size: 1px;
+  }
+  .mediket-btn2 {
+    padding: 5px 17px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+    font-size: 10px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+    max-width: 62px;
+    margin: 23px -16px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 {
+    font-size: 12px;
+  }
+  .mediket-btn5 {
+    bottom: -199px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 a {
+    margin: -5px -34px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+    margin: 12px -19px 187px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    font-size: 10px;
+    margin: 0px -121px;
+    max-width: 255px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -15px;
+    left: -8px;
+    width: 113px;
+    height: 117px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content h2 {
+    font-size: 19px;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+    font-size: 10px;
+  }
+  .subscribe-doctor .container .main-subscribe .right-subscribe {
+    margin: 0 -84px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .appoinmentstitle h2 {
+    font-size: 28px;
+  }
+  .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+    font-size: 16px;
+    line-height: 29px;
+    max-width: 249px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box::before {
+    width: 1px;
+    height: 31px;
+    left: 54px;
+    top: 10px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform {
+    width: 51%;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+    height: 44px;
+    padding: 0 98px;
+    margin: 0 6px;
+  }
+  .check_bx span {
+    font-size: 11px;
+  }
+  button.submit-btn1 {
+    font-size: 10px;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+    max-width: 106%;
+    font-size: 19px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    padding: 4px 4px;
+    margin: 0 -136px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 -8px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text {
+    padding: 0 25px 0px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+    font-size: 10px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 98vw;
+    top: 4vw;
+  }
+  .main-footer .footer-one .about-title {
+    font-size: 12px;
+    margin: 15px 19px;
+  }
+  .main-footer .footer-one .cmp-info {
+    padding: 6px 0 11px;
+    font-size: 13px;
+  }
+  .menu-content .list-content li a {
+    font-size: 11px;
+  }
+  .footer-alarm p {
+    font-size: 14px;
+  }
+  .subscribe-form input {
+    width: 188%;
+    margin: 78px -91px 57px;
+  }
+  .subscribe-form button{
+    top: 92px;
+  }
+  .footer-conter .docotr-info h5 {
+    font-size: 12px;
+  }
+  .main-nemu_nav {
+    margin: -44px 149px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+    margin: -3px 36px;
+    font-size: 14px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 323px;
+  } 
+  .hereo-selection .container .main-hereo .left-selection .hero-content p {
+    margin: -8px -7px 10px;
+    line-height: 27px;
+    font-size: 11px;
+  }
+  .leftbtoon-box h3 {
+    max-width: 44px;
+  }
+  .heore-btoon-selection .mdik-contect #num {
+    margin: -1px 4px;
+    font-size: 8px;
+    max-width: 74px;
+  }
+  .leftbtoon-box h3 {
+    font-size: 9px;
+    margin: -4px 6px;
+    max-width: 34px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte ul {
+    margin: 72px -2px;
+  }
+  .feature-content h4 span {
+    transition: 0.5s;
+    font-size: 14px;
+  }
+  .feature_list_icon {
+    margin: 0 -39px;
+  }
+  .feature-content p {
+    margin: 0 -20px;
+  }
+  .call-info_text h5 {
+    margin: -9px -30px -49px;
+    font-size: 9px;
+  }
+  .feature-btn3 {
+    margin-top: -59px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h2 {
+    font-size: 10px;
+  }
+  .mediket-btn2 {
+    padding: 5px 11px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about_experience h3 {
+    font-size: 17px;
+  }
+  .chooseusicon-inner {
+    margin: 0 -26px;
+  }
+  #info-about {
+    margin: 0 -27px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseustitle h2 {
+    font-size: 17px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+    font-size: 10px;
+    margin: 8px -11px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+    margin: 12px -26px 181px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+    max-width: 64px;
+    margin: 32px -39px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+    font-size: 10.4px;
+    margin: 0 -8px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    margin: 0px -142px;
+  }
+  .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+    font-size: 14px;
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+    margin: 0 -137px;
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 a {
+    padding: 0 0;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -20px;
+    left: -9px;
+    width: 103px;
+    height: 113px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content h2 {
+    font-size: 14px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .dtilte {
+    margin: 15px -14px;
+    font-size: 8.8px;
+  } 
+  .box-2 {
+    margin: 0px 14px;
+  }
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .appoinmentstitle h2 {
+    font-size: 23px;
+  }
+  .inner-form {
+    margin: 0 -27px;
+  }
+  .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+    font-size: 15px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+    top: -55%;
+    left: 19%;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .countr-inco {
+    width: 71px;
+    height: 71px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .counttitle h2 {
+    font-size: 20px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .count-info {
+    text-align: center;
+    padding: 22px 0;
+    font-size: 20px;
+    padding: 23px 4px;
+    font-size: 18px;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+    max-width: 106%;
+    font-size: 14px;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+    margin: 0 -169px;
+  }
+  .footer-section .container .footer-row {
+    margin-left: -8px;
+  }
+
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2 {
+    font-size: 7px;
+  }
+  .footer-title {
+    margin: 0 -351px;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before {
+    left: 114vw;
+    top: 3vw;
+  }
+  .footer-section .container .footer-row .inner-footer .footer-upper .footer-title h2::before { 
+    width: 60px;
+  }
+  .main-nemu_nav {
+    margin: -44px 118px;
+  }
+  .about-selection .about-items .leftabout-items {
+    flex: 0 0 auto;
+    width: 53.66%;
+  }
+  .about-selection .about-items .about-img {
+    margin: 0px -19px;
+  }
+  .mediket-btn2 {
+    padding: 6px 0px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+    height: 217px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -386.5px;
+    right: -112px;
+  }
+  .about-selection {
+    padding: 15px 0px;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe {
+    flex: 0 0 auto;
+    width: 50.333%;
+  }
+  .main-nemu_nav {
+    margin: -44px 115px;
+  }
+  .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+    max-width: 154px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content {
+    margin-top: 218px;
+  }
+  .lefthero-box .hereo-thems {
+    bottom: -400.5px;
+    right: -121px;
+  }
+  .hereo-selection .container .main-hereo .left-selection .hero-content .mediket-btn {
+    margin: 0px -8px;
+  }
+  .heore-btoon-selection::before {
+    right: 18%;
+    top: -20px;
+  }
+  .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+    font-size: 7px;
+  }
+  .feature_list_icon img {
+    vertical-align: middle;
+    width: 77px;
+    height: 39px;
+    margin: 0 10px;
+  }
+  .feature-content p {
+    margin: 0 -33px;
+  }
+  .call-info_text h5 {
+    margin: -2px -43px -51px;
+    font-size: 9px;
+  }
+  .fa-solid.fa-phone {
+    margin: 0 -37px;
+  }
+  .call-info_text span {
+    top: -18px;
+    font-size: 10px;
+  }
+  .mediket-btn2 {
+    padding: 0px 6px;
+  }
+  .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .about-shape img {
+    width: 199%;
+    height: 71%;
+    margin: 15px -30px;
+  }
+  .chooseusicon-inner {
+    margin: 0 -32px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+    font-size: 9px;
+    margin: 8px -16px;
+  }
+  .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+    margin: 12px -33px 181px;
+    font-size: 12px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseustitle h2 {
+    font-size: 14px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseustitle p {
+    font-size: 11px;
+    max-width: 227px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems {
+    gap: 68px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon {
+    width: 43px;
+    height: 52px;
+    margin: -14px 2px;
+  }
+  .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+      font-size: 8px;
+      margin: 2px 7px;
+      max-width: 58px;
+    }
+  
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 {
+    font-size: 9px;
+    margin: 111px -32px;
+  }
+  .rightservice-provide .chooseright-slide .Providetitle h2 {
+    font-size: 11px;
+  }
+  .rightservice-provide .chooseright-slide .case_list_item li {
+    margin: 0px -168px;
+  }
+  .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+    font-size: 12px;
+  }
+  .team-section .container .maintop-tem .left-tem .doctorsselection h4 {
+    font-size: 13px;
+  }
+  .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+    margin: 0 -152px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+    top: -16px;
+    left: -8px;
+    width: 86px;
+    height: 95px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb img {
+    width: 91%;
+    height: 82%;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content h2 {
+    font-size: 13px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content h5 {
+        padding: 9px 20px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .dtilte {
+    margin: 39px -14px;
+    font-size: 10px;
+  }
+  .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .social-icon {
+    margin: 15px -25px;
+  }
+  .btn {
+    line-height: 34px;
+    height: 42px;
+    width: 148px;
+    font-size: 13px;
+  }
+  .box-2 {
+    margin: 0px 30px;
+  }
+  .subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+    font-size: 8px;
+  }
+  #phone {
+    margin: 0 0;
+  }
+  .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+    margin: 90px -58px;
+    width: 109%;
+    height: 109%;
+  }
+
+  .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+    padding: 0 93px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+    left: 35%;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+    width: 119px;
+    margin: -122px 37px;
+    height: 278px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .countr-inco {
+    margin: 0 -24px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .counttitle h2 {
+    font-size: 19px;
+    margin: 10px -10px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 .count-info {
+    margin: 0 -58px;
+  }
+  .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+    margin: 0 102px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blogs-category ul {
+    margin: 0 -58px;
+    font-size: 12px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+    font-size: 11px;
+    font-weight: 397;
+    margin: 0 -22px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 a {
+    padding: 3px 5px;
+    background: #edf7ff;
+    font-size: 8px;
+  }
+  .footer-title {
+    display: none;
+  }
+  .subscribe-form input {
+    width: 235%;
+    margin: 78px -96px 54px;
+  }
+  .inner-footerbutton .footer-info p {
+    font-size: 9px;
+    color: #ffffff;
+    margin: 0px 3px;
+  }
+  .footer-button .footer-infobox .footer-button-nav ul {
+    margin: -32px 9px;
+  }
+  .main-nemu_nav {
+    margin: -44px 70px;
+  }
+  .about-selection {
+    padding: 0px 0px;
+  }
+  /* .about-selection .about-items .leftabout-items {
+    flex: 0 0 auto;
+    width: 29.66%;
+  } */
+  /* .about-selection .about-items .about-img img {
+    margin: 0 90px;
+  /* } */
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items {
+  padding: 19px 0 6px 15px; 
+    }
+    .about-selection .about-items .about-img {
+      margin: 0px 3px;
+    }
+    #info-about {
+      margin: 0 -3px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+      height: 270px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul {
+      max-width: 240px;
+      margin: 0 -39px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about-doctor::before {
+      left: -16px;
+      width: 245px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about_experience h2.about-count {
+      margin: 0 15px;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      margin: 5px;
+    }
+    .about-selection {
+      padding: 0px 10px;
+    }
+    .main-nemu_nav {
+      margin: -44px 63px;
+    }
+    
+    .feature-serction .container .main-feature {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .feature-serction .container .main-feature .one-featureselection {
+      width: 99%;
+    }
+    .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte li {
+      padding-top: 30px;
+      padding-bottom: 15px;
+    }
+    .feature-serction .container .main-feature .one-featureselection .inner-featureselection .top-title .head-tilte h2 {
+      font-size: 30px;
+    }
+    .head-tilte {
+      margin: 5px 6px;
+    }
+    .feature-serction .container .main-feature .one-featureselection .inner-featureselection::before {
+      top: 102px;
+      min-width: 100%
+    }
+    .feature-serction .container .main-feature .one-featureselection .inner-featureselection .botton-tilte p {
+      font-weight: 400;
+      font-size: 15px;
+    }
+    .feature_list_icon img {
+      vertical-align: middle;
+      width: 145px;
+      height: 68px;
+      margin: 0 31px;
+    }
+    .feature-content span.experts {
+      font-size: 26.8px;
+      margin: 24px -4px;
+    }
+    .feature-content h4 {
+      font-size: 26px;
+      margin: 6px 5px;
+    }
+    .feature-btn2 a {
+      padding: 10px 18px;
+      margin: 20px -15px;
+    }
+    .feature-content p {
+      margin: 0 -19px;
+      font-size: 21px;
+      line-height: 2;
+    }
+    .call-info_text span {
+      top: -19px;
+      font-size: 18px;
+    }
+    .call-info_text span::before {
+      top: 8px;
+      margin: 0 -13px;
+    }
+    .call-info_text h5 {
+      margin: -2px -9px -51px;
+      font-size: 15px;
+    }
+    .fa-solid.fa-phone {
+      margin: 0 -17px;
+    }
+    .feature-btn3 a {
+      font-size: 15px;
+    }
+    .feature-btn3 {
+      margin: -53px 57px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+      height: 143px;
+      margin: 0 -2px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .about-shape img {
+      width: 155%;
+      height: 66%;
+      margin: 15px -43px;
+    }
+    .about-selection .about-items .about-img img {
+      margin: 0 28px;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+      font-size: 12px;
+      max-width: 214px;
+      font-weight: 700;
+    }
+    .about-selection .about-items .leftabout-items .innerleftabout-items .about-title .mediket-title h4 {
+      color: #63bdff;
+      padding: 0 0 21px 17px;
+      font-size: 16px;
+    }
+    .mediket-btn2 a {
+      padding: 6px 2px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseuslist {
+      flex-direction: column;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseustitle p {
+      font-size: 18px;
+      max-width: 305px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo .middletitle h4 {
+      font-size: 16px;
+      margin: 1px 47px;
+      max-width: 5px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon {
+      width: 60px;
+      height: 60px;
+      margin: -14px 2px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusicon img {
+      width: 33px;
+      height: 39px;
+      margin: -11px 9px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+      max-width: 0px;
+      margin: 32px 16px;
+     font-size: 24px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseustitle p {
+      font-size: 19px;
+      max-width: 305px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+      margin: 12px -26px 181px;
+      font-size: 17px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 {
+      font-size: 18px;
+      margin: 949px -32px;
+      padding: 11px 37px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus {
+      padding: 137px 49px 59px;
+    }
+    .whychooseus .container .mainchooseus .leftchooseus .chooseustitle h2 {
+      font-size: 20px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+      font-size: 16px;
+      margin: 51px -16px;
+    }
+    .innerchooseus {
+      right: -55px;
+      height: 80%;
+      width: 97%;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 {
+      font-size: 13px;
+    margin: 949px -32px;
+    padding: 11px 37px;
+    }
+    .whychooseus {
+      padding: 70px 0 0px;
+    }
+    .rightservice-provide .chooseright-slide .case_list_item ul {
+      max-width: 403px;
+      margin: 12px -51px;
+    }
+    .rightservice-provide .chooseright-slide .case_list_item li {
+      font-size: 11px;
+      margin: 0px -121px;
+      max-width: 205px;
+    }
+    .rightservice-provide .chooseright-slide .Providetitle h2 {
+      font-size: 18px;
+    }
+    .team-section .container .botoon-doctor {
+      flex-direction: column;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      flex: 0 0 auto;
+      width: 86.333%;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      margin: 38px;
+    }
+    .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content h2 {
+      font-size: 18px;
+    }
+    /* .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+     margin: -40px 98px;
+      width: 95%; 
+      margin: -40px 73px;
+    width: 100%;
+    } */
+      .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+    margin: -40px 98px;
+    width: 100%;
+  }
+    .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+      font-size: 20px;
+    }
+    .team-section .container .botoon-doctor .doctor-part .team-single-box .team-content .dtilte {
+      margin: 39px -14px;
+      font-size: 18px;
+    }
+    .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+      top: -17px;
+      left: -3px;
+      width: 261px;
+      height: 269px;
+    }
+    .appoinment-section .container .mian-appoinmentsection {
+      flex-direction: column;
+    }
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection {
+      flex: 0 0 auto;
+      width: 93%;
+      margin: 113px 15px;
+    }
+    .appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+      margin: -31px 8px;
+      width: 232%;
+      height: 100%;
+    }
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .appoinmentstitle h4 {
+      font-size: 24px;
+    }
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .appoinmentstitle h2 {
+      font-size: 33px;
+    }
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+      padding: 0 126px;
+    }
+    .check_bx span {
+      font-size: 15px;
+    }
+    .submit-button1 {
+      margin: 19px 33px;
+    }
+    button.submit-btn1 {
+      font-size: 15px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+      font-size: 16px;
+    }
+    #left-slider {
+      left: -199px;
+      bottom: -13px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h4 {
+      margin: 0 -281px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+      font-size: 20px;
+      max-width: 85px;
+      margin: 0 -269px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+      margin: -40px 80px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+      left: 32%;
+      margin: 75px 127px;
+      width: 14%;
+    }
+    .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+      margin: 0 -116px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb {
+      right: -39%;
+      bottom: 21px;
+    }
+    /* .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+      margin: -40px 98px;
+      width: 112%;
+    } */
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+      width: 131px;
+      margin: -52px 40px;
+      height: 224px;
+    }
+    .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+      margin: 0 -96px;
+    }
+    .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+      max-width: 281%;
+      font-size: 26px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box {
+      width: 305%;
+      margin: 0 31px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blogs-category ul {
+      margin: 0 -34px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blogs-category ul li {
+      font-size: 19px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .blog-title h2 a {
+      font-size: 16px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 a {
+      font-size: 15px;
+    }
+    .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info .blog_text .mediket-button9 {
+      margin: 0 4px;
+    }
+    .latesblog .container .inner-latesblog {
+      flex-direction: column;
+    }
+    .latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+      margin: 0 -168px;
+    }
+    .brand-section .container .main-boder .inner-info .brand-tilte h2 {
+      font-size: 27px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content h4 {
+      font-size: 15px;
+      margin: 0 36px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+      margin: -3px 36px;
+      font-size: 23px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content p {
+      margin: 5px 6px 9px;
+      line-height: 27px;
+      font-size: 16px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content {
+      margin-top: 137px;
+    }
+    /* .hereo-selection .container .main-hereo .left-selection .hero-content {
+      margin-top: 342px;
+    } */
+    .heore-btoon-selection .mdik-contect #num {
+      margin: -1px 4px;
+      font-size: 12px;
+      max-width: 140px;
+    }
+    .leftbtoon-box h3 {
+      font-size: 11px;
+      margin: -3px 26px;
+      max-width: 34px;
+    }
+    .heore-btoon-selection .medik-hero {
+      margin: 8px -9px;
+      width: 73px;
+    }
+    .lefthero-box .hereo-thems {
+      bottom: -333.5px;
+      right: -121px;
+    }
+    .lefthero-box .hereo-thems img {
+      width: 104%;
+    }
+    .toper_area .main-rowtoper .innertop-row .toper-textleft p {
+      margin: 0;
+      font-size: 11px;
+      font-weight: 474;
+    }
+    .toper_area .main-rowtoper .innertop-row2 .toper-textright p {
+      font-size: 9px;
+      font-weight: 602;
+      max-width: 353px;
+      margin: 14px 0px;
+    }
+    .main-footer .footer-one {
+      flex: 0 0 auto;
+      width: 35.33%;
+    }
+    .main-footer {
+      flex-direction: column;
+    }
+    .main-footer .footer-one .about-title {
+      font-size: 17px;
+      margin: 15px 19px;
+    }
+    .main-footer .footer-one .cmp-info {
+      padding: 6px 0 11px;
+      font-size: 17px;
+    }
+    .footer-conter .docotr-info h5 {
+      font-size: 14px;
+    }
+    .main-footer .footer-one .about-title {
+      font-size: 21px;
+    }
+    .menu-content .list-content li a {
+      font-size: 15px;
+    }
+    .footer-alarm p {
+      font-size: 16px;
+    }
+    .subscribe-form input {
+      width: 158%;
+      margin: 78px -17px 63px;
+    }
+    .submit-btn {
+      margin: 0 -64px;
+    }
+    .lefthero-box .hereo-thems img {
+      width: 97%;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+      margin: -2px 65px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+      font-size: 16px;
+      max-width: 85px;
+      margin: 0 -220px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h4 {
+      margin: 0 -236px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .countsingle-box2 {
+      width: 126px;
+      margin: -52px -2px;
+      height: 224px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+      left: 8%;
+      margin: 93px 127px;
+      width: 14%;
+    }
+    .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+      margin: 0px -123px;
+    }
+    .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+      font-size: 18px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+      margin: -2px 63px;
+    }
+    .lefthero-box .hereo-thems {
+      bottom: -320.5px;
+      right: -121px;
+    }
+    /* .hereo-selection .container .main-hereo .left-selection .hero-content {
+      margin-top: 224px;
+    } */
+    .hereo-selection .container .main-hereo .left-selection .hero-content {
+      margin-top: 129px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content h4 {
+      font-size: 10px;
+      margin: 0 36px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content h1 {
+      margin: -3px 36px;
+      font-size: 12px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content p {
+      margin: 5px 6px 9px;
+      line-height: 27px;
+      font-size: 11px;
+    }
+    .heore-btoon-selection .mdik-contect #num {
+      margin: -1px 4px;
+      font-size: 10px;
+      max-width: 80px;
+    }
+    .heore-btoon-selection .medik-hero {
+      margin: 19px -13px;
+      width: 73px;
+    }
+    .heore-btoon-selection::before {
+      right: 30%;
+      top: -2px;
+    }
+    .leftbtoon-box h3 {
+      font-size: 9px;
+      margin: -1px 32px;
+      max-width: 68px;
+    }
+    .leftbtoon-box {
+      margin: 0 -48px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet h2 {
+      font-size: 13px;
+      margin: 51px -25px;
+    }
+    .whychooseus .container .mainchooseus .rightchooseus .innerchooseus .appoinment_contnet p {
+      margin: 12px -26px 181px;
+      font-size: 14px;
+    }
+    .rightservice-provide .chooseright-slide .Providetitle h2 {
+      font-size: 15px;
+    }
+    .team-section .container .maintop-tem .left-tem .doctorsselection h2 {
+      font-size: 14px;
+    }
+    .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+      font-size: 10px;
+    }
+    .team-section .container .maintop-tem .right-doctors .mediket-btn6 {
+      margin: 0px -130px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h2 {
+      font-size: 13px;
+      max-width: 85px;
+      margin: 0 -180px;
+    }
+    .testimonial-section .container .main-testimonial .right-Testimonals .testimonalstitle h4 {
+      margin: 0 -200px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb .testi-shpinfo img {
+      top: -84%;
+    }
+    .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+      max-width: 160%;
+      font-size: 16px;
+    }
+    .testimonial-section .container .main-testimonial .left-testimonial .testi-thumb img {
+      margin: -2px 55px;
+    }
+    .hereo-selection .container .main-hereo .left-selection .hero-content {
+      margin-top: 312px;
+    }
+    .lefthero-box .hereo-thems {
+      bottom: -385.5px;
+      right: -121px;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      margin: 0px 4px;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      margin: 0px -88px;
+    }
+    .team-section .container .botoon-doctor .doctor-part {
+      flex: 0 0 auto;
+      width: 100.333%;
+    }
+    .team-section .container .botoon-doctor {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: -35px 201px;
+    }
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: -35px 158px;
+    }
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: -35px 131px;
+    }
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: -35px 106px;
+    }
+    #btn-tog {
+      margin: 0 -7px;
+    }
+    #btn-tog2 {
+      margin: 0 -195px;
+    }
+    
+    #btn-tog2 {
+      margin: 0 10px;
+    }
+    #btnapp {
+      margin: 2px 10px;
+    }
+    .header-button a {
+      padding: 4px 34px;
+      margin: 10px -146px;
+    }
+    /* #btnapp {
+      margin: 2px -1px;
+    } */
+    .loge_img img {
+      margin: -17px -20px;
+    }
+      /* .navbar-toggler .fa-solid.fa-align-left {
+        margin: 3px 220px;
+      } */
+    .box-2 {
+      margin: -4px 6px;
+    }
+    /* .main-nemu_nav {
+      margin: -44px -105px;
+    } */
+    .navbar-toggler .fa-solid.fa-align-left {
+      margin: 7px 108px;
+    }
+    .team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+      top: 6px;
+      left: 10px;
+      width: 260px;
+      height: 278px;
+    }
+    .btn {
+      line-height: 5px;
+      height: 47px;
+      width: 148px;
+      font-size: 13px;
+    }
+    .main-footer .footer-one .about-title {
+      font-size: 17px;
+      margin: 15px -36px;
+    }
+    .menu-content {
+      margin: 0 -27px;    
+ }
+ .main-footer .footer-one .about-title {
+  margin: 15px -43px;
+}
+.anytime_alarm {
+  margin: 0 10px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -418.5px;
+  right: -121px;
+}
+.main-nemu_nav {
+  margin: -28px 63px;
+}
+.navbar-toggler .fa-solid.fa-align-left {
+  margin: -14px 114px;
+}
+.heore-btoon-selection .medik-hero {
+  margin: 129px -13px;
+  width: 73px;
+}
+.lefthero-box .hereo-thems {
+  bottom: -313.5px;
+  right: -121px;
+}
+.heore-btoon-selection .mdik-contect {
+  margin-top: 92px;
+}
+.heore-btoon-selection .mdik-contect #num {
+  margin: -1px 17px;
+}
+.heore-btoon-selection::before {
+  right: 31%;
+  top: 82px;
+}
+#info-about {
+  font-size: 13px;
+   max-width: 232px;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites .about_qute::before {
+  height: 222px !important;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .aboutaservis-lites ul li {
+  font-size: 11px;
+  max-width: 227px;
+  font-weight: 700;
+  margin: 3px 1px;
+}
+.mediket-btn2 {
+  padding: 2px 5px;
+  margin: 35px -16px;
+}
+.whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems .chooseusinfo p {
+  max-width: 59px;
+  margin: 33px 28px;
+  font-size: 17px;
+}
+.whychooseus .container .mainchooseus .rightchooseus .innerchooseus {
+  padding: 78px 44px 53px;
+}
+.whychooseus .container .mainchooseus .leftchooseus .chooseuslist .mainchooseuslist .chooseusitems {
+  gap: 51px;
+}
+.about-selection .about-items .leftabout-items .innerleftabout-items .rightabout-items .about_experience h2.about-count {
+  padding: 0 9px;
+}
+.whychooseus .container .mainchooseus .rightchooseus .innerchooseus .mediket-btn5 {
+  font-size: 14px;
+  margin: 953px -37px;
+  padding: 12px 45px;
+}
+.whychooseus .container .mainchooseus .rightchooseus {
+  width: 33.1%;
+  margin: -68px -116px;
+}
+.rightservice-provide .chooseright-slide .Providetitle h4 {
+  color: #0391f8;
+  padding: 0 0 18px 30px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.rightservice-provide .chooseright-slide .case_list_item li {
+  max-width: 224px;
+}
+.team-section .container .botoon-doctor .doctor-part .team-single-box .team-thumb::before {
+  top: 10px;
+  left: 29px;
+  width: 290px;
+  height: 365px;
+}
+.btn {
+  line-height: 6px;
+  height: 49px;
+  width: 166px;
+  font-size: 13px;
+}
+.subscribe-doctor .container .main-subscribe .leftsubscribe .subscribe-content .subscribe-title h1 {
+  max-width: 91px;
+  font-size: 8px;
+  font-weight: 800;
+  margin: 0 40px;
+}
+.counter_icon2 {
+  text-align: center;
+  margin: 0 11px;
+}
+.appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+  width: 172% !important;
+}
+.latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+  margin: 5px -124px;
+}
+.latesblog .container .main-lateslog .right-blogtilte .mediket-btn7 {
+  padding: 10px 8px;
+}
+.brand-section .container .brand-nameinfo .main-brandinfo .swiper .swiper-wrapper .swiper-slide {
+  margin-right: 24px;
+  width: 102px;
+  height: 83px;
+}
+.subscribe-doctor .container .main-subscribe .right-subscribe .subscriberightsild .counter-single-box2 .subsccribe-desc p {
+  font-size: 10px;
+  margin: 3px -24px;
+}
+.box-2 {
+  margin: -1px 18px;
+}
+.left-appoinmentselection {
+  margin: 0 -28px;
+}
+.appoinment-section .container .mian-appoinmentsection .left-appoinmentselection .contact_thumb img {
+  margin: -30px 62px;
+ }
+}

@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+/* strat Lates Blog blog-section */
+.latesblog {
+    padding: 110px 0 80px;
+    background: #eef7ff;
+  }
+  .latesblog .container .main-lateslog {
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte {
+    flex: 0 0 auto;
+    width: 66.66%;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h4 {
+    color: #0695ff;
+    padding: 0 0 23px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h4::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 1px;
+    background: url("../img/shape9.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: wooo 3.5s infinite;
+  }
+  .latesblog .container .main-lateslog .left-blogtilte .blogtilteinfo h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 46px;
+    color: #041c33;
+    font-weight: 600;
+    font-family: "Unbounded";
+    font-style: normal;
+    max-width: 73%;
+  }
+  .latesblog .container .main-lateslog .right-blogtilte {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  
+  
+   .mediket-btn7  {
+      padding: 18px 42px;
+      display: inline-block;
+      border-radius: 32px;
+      position: relative;
+      z-index: 1;
+      transition: 0.5s;
+      overflow: hidden;
+      border: 1px solid #0495ff;
+      background-color: #0495ff;
+      font-size: 15px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Unbounded";
+      top: -33px;
+      left: 98px;
+    }
+    
+    .mediket-btn7::before{
+      content: " ";
+      width: 0;
+      height: 300%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(5deg);
+      background: #dceaa2;
+      transition: 0.5s ease;
+      display: block;
+      z-index: -1;
+    }
+    
+ .mediket-btn7:hover::before {
+      width: 105%;
+      color: #FFFBFA;
+    }
+    
+   .mediket-btn7 a{
+      color: black;
+    }
+  
+  
+  .latesblog .container .inner-latesblog {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .latesblog .container .inner-latesblog .lastblog {
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 15px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box {
+    margin-bottom: 30px;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-thumb {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-thumb
+    img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .latesblog .container .inner-latesblog .lastblog .blog-single-box .blog-info {
+    transition: 0.5s;
+    background: #fff;
+    padding: 0 0 17px;
+    border-radius: 0 0 10px 10px;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blogs-category {
+    background: #dbe9a1;
+    padding: 12px 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blogs-category::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #1ea0ff;
+    height: 100%;
+    /* width: 0; */
+    /* transition: 0.5s; */
+  }
+  .blog-single-box:hover .blogs-category::before {
+    width: 100%;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blogs-category
+    ul {
+    font-style: normal;
+    font-weight: 400;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blogs-category
+    ul
+    li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* color: #041c33; */
+    font-weight: 400;
+    font-family: "Unbounded";
+    transition: 0.5s;
+    list-style: none;
+  }
+  .blog-single-box:hover .blogs-category ul li {
+    color: #fff;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text {
+    padding: 0 30px 0;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text
+    .blog-title
+    h2 {
+    color: #041c33;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text
+    .blog-title
+    h2
+    a {
+    display: inline-block;
+    padding: 15px 0 0;
+    transition: 0.5s;
+    font-size: 22px;
+    line-height: 32px;
+    /* color: #041c33; */
+    font-weight: 500;
+    font-family: "Unbounded";
+    text-decoration: none;
+  }
+  .blog-title h2 a:hover {
+    color: #1ea0ff;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text
+    .mediket-button9 {
+    border-top: 1px solid rgb(41 136 228 / 16%);
+    margin-top: 25px;
+    padding-top: 27px;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text
+    .mediket-button9
+    a {
+    padding: 3px 25px;
+    background: #edf7ff;
+    font-size: 12px;
+    line-height: 34px;
+    color: #041c33;
+    font-weight: 400;
+    font-family: "Unbounded";
+    display: inline-block;
+    border-radius: 28px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  .latesblog
+    .container
+    .inner-latesblog
+    .lastblog
+    .blog-single-box
+    .blog-info
+    .blog_text
+    .mediket-button9
+    a
+    .mediket-btn__hover {
+    /* background: #0495ff; */
+    width: 18.66%;
+    /* height: 0; */
+    display: block;
+    position: absolute;
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+  .mediket-btn__hover:nth-child(1) {
+    left: 0;
+  }
+  .mediket-btn__hover:nth-child(1) {
+    bottom: 0;
+  }
+  .mediket-btn__hover:nth-child(2) {
+    left: 16.66%;
+  }
+  .mediket-btn__hover:nth-child(2) {
+    top: 0;
+  }
+  .mediket-btn__hover:nth-child(3) {
+    left: 32.32%;
+  }
+  .mediket-btn__hover:nth-child(3) {
+    bottom: 0;
+  }
+  .mediket-btn__hover:nth-child(4) {
+    left: 49.98%;
+  }
+  .mediket-btn__hover:nth-child(4) {
+    top: 0;
+  }
+  .mediket-btn__hover:nth-child(5) {
+    left: 64.64%;
+  }
+  .mediket-btn__hover:nth-child(5) {
+    bottom: 0;
+  }
+  .mediket-btn__hover:nth-child(6) {
+    left: 83.3%;
+  }
+  .mediket-btn__hover:nth-child(6) {
+    top: 0;
+  }
+  .mediket-btn:hover .mediket-btn__hover {
+    height: 100%;
+    background: #0495ff;
+    /* color: white;  */
+  }
+  .mediket-but_hover a:hover {
+    color: white;
+  }
+  .mediket-button a:hover {
+    /* color: var(--light); */
+    border: 1px solid #fff;
+  }
+  
+  
+  /* end Lates Blog blog-section */
+  

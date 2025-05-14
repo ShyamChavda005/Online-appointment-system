@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+  }
+  
+  .container {
+    display: block;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  /* start appoinment-section */
+.appoinment-section {
+    padding: 250px 48px 120px;
+    position: relative;
+    /* background: #041c34; */
+    background-color: whitex;
+  }
+  .appoinment-section .container .mian-appoinmentsection {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .left-appoinmentselection {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .left-appoinmentselection
+    .contact_thumb
+    img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection {
+    flex: 0 0 auto;
+    width: 50%;
+    /* max-width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box {
+    padding: 55px 35px 69px;
+    background: #1e3348;
+    border-radius: 20px;
+    margin: -72px 13px;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .appoinmentstitle {
+    margin-bottom: 35px;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .appoinmentstitle
+    h4 {
+    color: #0f62a1;
+    padding: 0 0 23px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: "Unbounded";
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.2;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .appoinmentstitle
+    h4::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 1px;
+    background: url("../img/shape8.png");
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: wooo 3.5s infinite;
+  }
+@keyframes wooo {
+    0% {
+        transform: rotate3d(0, 0, 0);
+      }
+      50% {
+        transform: rotate3d(0, 1, 0, 180deg);
+      }
+      100% {
+        transform: rotate3d(0, 1, 0, 359deg);
+      }
+}
+  
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .appoinmentstitle
+    h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 600;
+    font-family: "Unbounded";
+    font-style: normal;
+  }
+ #inner-subfrom {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box {
+    position: relative;
+    z-index: 1;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box::before {
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.14901960784313725);
+    position: absolute;
+    content: "";
+    left: 61px;
+    top: 16px;
+  }
+ 
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    input {
+       width: 104%;
+    height: 55px;
+    margin-bottom: 25px;
+    padding: 0 75px;
+    outline: 0;
+    display: inline-block;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    border: 0;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    input::placeholder {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    i {
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    font-size: 15px;
+    line-height: 26px;
+    color: #0495ff;
+    font-weight: 900;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    select {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    padding: 0 75px;
+    outline: 0;
+    display: inline-block;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    border: 0;
+    word-wrap: normal;
+    text-transform: none;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    select
+    option {
+    background: #dbe9a1;
+    color: black;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    .booton-from {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .appoinment-section
+    .container
+    .mian-appoinmentsection
+    .right-appoinmentselection
+    .contact-form-box
+    .inner-form
+    .singleform
+    .form-box
+    .booton-from
+    .check_bx {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 27px;
+  }
+  .check_bx input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+  }
+  .check_bx span {
+    font-size: 15px;
+    color: #ffffff8a;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0 15px;
+    font-style: normal;
+  }
+  button.submit-btn1 {
+    padding: 12px 38px;
+    display: inline-block;
+    border-radius: 32px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 1px solid #0495ff;
+    background-color: #0495ff;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Unbounded";
+  }
+  .submit-button1 {
+    margin: 16px 0;
+  }
+  /* end appoinment-section */
+
+
+   @media (max-width: 768px) {
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+      width: 354px !important;
+    }
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        width: 287px !important;
+      }
+      .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        width: 245px !important;
+      }
+  }
+ @media (max-width: 576px) {
+    /* .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        padding: 0 70px !important;
+      } */
+      .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform {
+        width: 95% !important;
+      }
+      .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        padding: 0 70px !important;
+      }
+      .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        width: 303px !important;
+      }
+      #space-btn {
+        margin: 5px 5px;
+        padding: 7px 90px;
+      }
+} 
+  /* @media (max-width: 576px) {
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        padding: 21px 194px !important;
+      width: 150px !important;
+    }
+
+
+    .appoinment-section .container .mian-appoinmentsection .right-appoinmentselection .contact-form-box .inner-form .singleform .form-box input {
+        padding: 21px 194px !important;
+      width: 150px !important;
+    }
+  }  */
