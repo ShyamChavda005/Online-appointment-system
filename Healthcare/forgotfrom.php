@@ -1,21 +1,22 @@
 <?php
 session_start();
+include_once("../config.php");
 $conn = mysqli_connect("localhost", "root", "", "healthcare");
 
 if (!$conn) {
-    echo "<script>Swal.fire('Error', 'Database connection failed!', 'error');</script>";
-    exit();
+  echo "<script>Swal.fire('Error', 'Database connection failed!', 'error');</script>";
+  exit();
 }
 
 $otp = rand(1000, 9999);
 
 if (isset($_REQUEST["sendOtp"])) {
-    $email = $_REQUEST["email"];
-    $Q = mysqli_query($conn, "SELECT email FROM patients WHERE email = '$email'");
+  $email = $_REQUEST["email"];
+  $Q = mysqli_query($conn, "SELECT email FROM patients WHERE email = '$email'");
 
-    if (mysqli_num_rows($Q) > 0) {
-        $subject = "Reset Your Password - OTP Verification";
-        $msg = "We received a request to reset your password for your online appointment system account. To proceed, 
+  if (mysqli_num_rows($Q) > 0) {
+    $subject = "Reset Your Password - OTP Verification";
+    $msg = "We received a request to reset your password for your online appointment system account. To proceed, 
 please use the One-Time Password (OTP) below:
 
 Your OTP: " . $otp . "
@@ -28,22 +29,23 @@ Team HealthCare
 Customer Support Team
 teamhealthcarehospital@gmail.com";
 
-        if (mail($email, $subject, $msg)) {
-            $_SESSION["otp"] = $otp;
-            $_SESSION["email"] = $email;
-            header("Location: otpfrom.php");
-            // exit();
-        } else {
-            echo "<script>
+    $result2 = sendEmail($email, $subject, $msg);
+    if ($result2 === true) {
+      $_SESSION["otp"] = $otp;
+      $_SESSION["email"] = $email;
+      header("Location: otpfrom.php");
+      // exit();
+    } else {
+      echo "<script>
                 Swal.fire({
                     title: 'Error!',
                     text: 'Failed to send OTP. Please try again.',
                     icon: 'error'
                 });
             </script>";
-        }
-    } else {
-        echo "<script>
+    }
+  } else {
+    echo "<script>
             document.addEventListener('DOMContentLoaded', function() {
                 Swal.fire({
                     title: 'Oops!',
@@ -52,7 +54,7 @@ teamhealthcarehospital@gmail.com";
                 });
             });
         </script>";
-    }
+  }
 }
 ?>
 <!DOCTYPE html>
@@ -77,7 +79,7 @@ teamhealthcarehospital@gmail.com";
 
 <body>
 
- 
+
 
   <div class="appoinment-section">
     <div class="container">
@@ -94,35 +96,35 @@ teamhealthcarehospital@gmail.com";
               <h2>Enter your email to receive an OTP</h2>
             </div>
             <form id="dreamit-form" method="post">
-  <div class="inner-form">
-    <div class="singleform">
-      <div class="form-box">
-        <input type="text" name="email" id="name" placeholder="Email Address" />
-        <i class="fa-solid fa-user"></i>
-        <span class="error-message" id="name-error"></span>
-      </div>
-    </div>
-
-    
-      <div class="submit-button1">
-        <button type="submit" name="sendOtp" class="submit-btn1">
-        Send OTP
-          <i class="fa-solid fa-square-up-right"></i>
-        </button>
-      </div>
-    </div>
-  </div>
-</form>
+              <div class="inner-form">
+                <div class="singleform">
+                  <div class="form-box">
+                    <input type="text" name="email" id="name" placeholder="Email Address" />
+                    <i class="fa-solid fa-user"></i>
+                    <span class="error-message" id="name-error"></span>
+                  </div>
+                </div>
 
 
-
-
+                <div class="submit-button1">
+                  <button type="submit" name="sendOtp" class="submit-btn1">
+                    Send OTP
+                    <i class="fa-solid fa-square-up-right"></i>
+                  </button>
+                </div>
+              </div>
           </div>
+          </form>
+
+
+
+
         </div>
       </div>
     </div>
   </div>
- 
+  </div>
+
 </body>
 
-</html> 
+</html>

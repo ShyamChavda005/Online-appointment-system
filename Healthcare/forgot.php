@@ -1,5 +1,6 @@
 <?php
 session_start();
+include_once("../config.php");
 $conn = mysqli_connect("localhost", "root", "", "healthcare");
 
 if (!$conn) {
@@ -28,7 +29,8 @@ Team HealthCare
 Customer Support Team
 teamhealthcarehospital@gmail.com";
 
-        if (mail($email, $subject, $msg)) {
+        $result2 = sendEmail($email, $subject, $msg);
+        if ($result2 === true) {
             $_SESSION["otp"] = $otp;
             $_SESSION["email"] = $email;
             header("Location: otp.php");
