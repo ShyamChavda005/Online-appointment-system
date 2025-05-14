@@ -79,15 +79,6 @@ Healthcare/
 ---
 
 
-## 💳 Pricing
-
-**One-time purchase:** ₹499 INR  
-Includes complete source code, database, and documentation.  
-✅ Ideal for academic submission or personal/commercial customization.
-
----
-
-
 ## 📄 License
 
 This project is licensed under the **MIT License**.  
