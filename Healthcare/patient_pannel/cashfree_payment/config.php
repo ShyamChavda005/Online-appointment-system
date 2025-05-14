@@ -1,6 +1,6 @@
 <?php
-define("CASHFREE_APP_ID", "TEST106129236bd3ef181dec8b45968132921601");
-define("CASHFREE_SECRET_KEY", "cfsk_ma_test_5399214271b6ea45201df6ed7112065f_cac7c49e");
+define("CASHFREE_APP_ID", "your_api_key_here");
+define("CASHFREE_SECRET_KEY", "your_secret_key_here");
 define("CASHFREE_API_URL", "https://sandbox.cashfree.com/pg/orders"); // Use production URL when live
 
 // Database Connection
